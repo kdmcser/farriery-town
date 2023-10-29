@@ -1,0 +1,73 @@
+{
+	"falv6":
+	{
+		"name" :
+		{
+			"plural" : "Tanks",
+			"singular" : "Tank"
+		},
+		"advMapAmount" :
+		{
+			"max" : 10,
+			"min" : 4
+		},
+		"faction" : "farriery",
+		"aiValue" : 2449,
+		"fightValue" : 2137,
+		"attack" : 18,
+		"defense" : 15,
+		"hitPoints" : 130,
+		"speed" : 6,
+		"cost" :
+		{
+			"gold" : 1050
+		},
+		"damage" :
+		{
+			"max" : 25,
+			"min" : 20
+		},
+		"graphics" :
+		{
+			"animation" : "farriery/battle/lv6.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/lv6",
+			"iconSmall" : "farriery/iconsSmall/lv6.bmp",
+			"iconLarge" : "farriery/iconsBig/lv6.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"level" : 6,
+		"upgrades":
+		[
+			"falv6up"
+		],
+		"sound" :
+		{
+			"attack" : "farriery/tankATTK.wav",
+			"defend" : "farriery/CBRGDFND.wav",
+			"killed" : "farriery/tankKILL.wav",
+			"move" : "farriery/tankMOVE.wav",
+			"wince" : "farriery/tankWNCE.wav"
+		},
+		"abilities" :
+		{
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+            "multiAttack" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+
+			},
+            "panzer" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.landMine",
+				"addInfo" : 0
+			}
+		}
+	}
+}

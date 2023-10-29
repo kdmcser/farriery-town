@@ -1,0 +1,90 @@
+{
+	"technik" : {
+		"name" : "Technomage",
+		"faction" : "farriery",
+		"affinity" : "magic",
+		"commander" : "faArkhon",
+
+		"animation" : {
+			"battle" : {
+				"female" : "farriery/battleTechnomage",
+				"male" : "farriery/battleTechnomage"
+			}
+		},
+
+		"mapObject" : {
+			"templates" : {
+				"default" : {
+					"animation" : "farriery/mapEngineer"
+				}
+			}
+		},
+
+		"primarySkills" :
+		{
+			"attack"     : 1,
+			"defence"    : 0,
+			"spellpower" : 3,
+			"knowledge"  : 2
+		},
+		"lowLevelChance" :
+		{
+			"attack"     : 25,
+			"defence"    : 25,
+			"spellpower" : 30,
+			"knowledge"  : 20
+		},
+		"highLevelChance" :
+		{
+			"attack"     : 25,
+			"defence"    : 25,
+			"spellpower" : 25,
+			"knowledge"  : 25
+		},
+		"secondarySkills" :
+		{
+			"pathfinding"  : 4,
+			"archery"      : 2,
+			"logistics"    : 6,
+			"scouting"     : 5,
+			"diplomacy"    : 5,
+			"navigation"   : 0,
+			"leadership"   : 1,
+			"wisdom"       : 8,
+			"mysticism"    : 6,
+			"luck"         : 4,
+			"ballistics"   : 5,
+			"eagleEye"     : 4,
+			"necromancy"   : 0,
+			"estates"      : 1,
+			"fireMagic"    : 6,
+			"airMagic"     : 4,
+			"waterMagic"   : 2,
+			"earthMagic"   : 4,
+			"scholar"      : 5,
+			"tactics"      : 1,
+			"artillery"    : 4,
+			"learning"     : 4,
+			"offence"      : 5,
+			"armorer"      : 5,
+			"intelligence" : 8,
+			"sorcery"      : 7,
+			"resistance"   : 5,
+			"firstAid"     : 1
+		},
+		
+		"defaultTavern" : 6,
+		"tavern" : {
+			"castle"     : 6,
+			"rampart"    : 6,
+			"tower"      : 6,
+			"inferno"    : 6,
+			"necropolis" : 6,
+			"dungeon"    : 6,
+			"stronghold" : 6,
+			"fortress"   : 6,
+			"conflux"    : 6,
+			"farriery"   : 6
+		}
+	}
+}

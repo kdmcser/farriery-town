@@ -1,0 +1,85 @@
+{
+	"falv4":
+	{
+		"name" :
+		{
+			"plural" : "Stingers",
+			"singular" : "Stringer"
+		},
+		"advMapAmount" :
+		{
+			"max" : 18,
+			"min" : 8
+		},
+		"faction" : "farriery",
+		"aiValue" : 839,
+		"fightValue" : 768,
+		"attack" : 12,
+		"defense" : 8,
+		"hitPoints" : 50,
+		"speed" : 4,
+		"cost" :
+		{
+			"gold" : 350
+		},
+		"damage" :
+		{
+			"max" : 14,
+			"min" : 8
+		},
+		"graphics" :
+		{
+			"animation" : "farriery/battle/lv4.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/lv4.def",
+			"iconSmall" : "farriery/iconsSmall/lv4.bmp",
+			"iconLarge" : "farriery/iconsBig/lv4.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "farriery/battle/projectile/shot207.DEF",
+			       "attackClimaxFrame" : 4,
+				"offset" :
+				{
+					"upperX" : 25,
+					"upperY" : -86,
+					"middleX" : 47,
+					"middleY" : -69,
+					"lowerX" : 25,
+					"lowerY" : -38
+				},
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+		},
+		"growth" : 3,
+		"level" : 4,
+		"upgrades":
+		[
+			"falv4up"
+		],
+		"shots" : 6,
+		"sound" :
+		{
+			"attack" : "farriery/stingerATTK.wav",
+			"defend" : "farriery/stingerDFND.wav",
+			"killed" : "farriery/stingerKILL.wav",
+			"move" : "farriery/stingerMOVE.wav",
+			"wince" : "farriery/stingerWNCE.wav",
+ 			"shoot" : "farriery/stingerSHOT.wav"                   
+		},
+		"abilities" :
+		{
+		"canShoot" :
+			{
+				"type" : "SHOOTER"
+			},
+			"enchanted" : 
+			{
+				"type" : "ENCHANTED",
+				"subtype" : "spell.slayer",
+				"val" : 2
+			}
+		}
+	}
+}
+

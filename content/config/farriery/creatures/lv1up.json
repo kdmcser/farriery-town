@@ -1,0 +1,85 @@
+{
+	"falv1up":
+	{
+		"name" :
+		{
+			"plural" : "Foot Soldiers",
+			"singular" : "Foot Soldier"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 25,
+			 "min" : 16
+		},
+		"faction" : "farriery",
+		"aiValue" : 177,
+		"fightValue" : 150,
+		"attack" : 5,
+        "cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			 "max" : 3,
+			 "min" : 1
+		},
+		"defense" : 4,
+		"horde" : 6,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/lv1up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/lv1up.def",
+			"iconSmall" : "farriery/iconsSmall/lv1up.bmp",
+			"iconLarge" : "farriery/iconsBig/lv1up.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+			{
+				"projectile" : "farriery/battle/projectile/SHOT197.DEF",
+				"offset" :
+				{
+					"upperX" : 34,
+					"upperY" : -96,
+					"middleX" : 50,
+					"middleY" : -62,
+					"lowerX" : 4,
+					"lowerY" : 0
+				},
+				"attackClimaxFrame" : 4,
+				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+			}
+
+		},
+		"growth" : 15,
+		"hitPoints" : 10,
+        "level" : 1,
+		"shots" : 24,
+		"sound" :
+		{
+			"attack" : "farriery/gruntATTK.wav",
+			"defend" : "farriery/gruntDFND.wav",
+			"killed" : "farriery/gruntKILL.wav",
+			"move" : "farriery/gruntMOVE.wav",
+			"wince" : "farriery/gruntWNCE.wav",
+            "shoot" : "farriery/gruntSHOT1.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+		    "shooter" :
+			{
+				"type" : "SHOOTER"
+			},
+			"reduceDefence" :
+			{
+				"type" : "ENEMY_DEFENCE_REDUCTION",
+				"val" : 10
+            },
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
+            }
+		}	
+	}
+}

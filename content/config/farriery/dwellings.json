@@ -1,0 +1,91 @@
+{
+	"core:creatureGeneratorCommon" : {
+		"types" : {
+			"faBarracks" : {
+				"name" : "Barracks",
+				"creatures" : [[ "falv1" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/dwellings/dwelling-1.def",
+						"mask" : [ "00V", "0BB", "VAB" ]
+					}
+				}
+			},
+			"faSlaughterhouse" : {
+				"name" : "Slaughterhouse",
+				"creatures" : [[ "falv2" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/dwellings/dwelling-2.def",
+						"mask" : [ "VVV", "VVB", "VAB" ]
+					}
+				}
+			},
+			"faFireBasin" : {
+				"name" : "Fire Basin",
+				"creatures" : [[ "falv3" ]],
+				"templates" : {
+					"default" : {	
+						"animation" : "farriery/dwellings/dwelling-3.def",
+						"mask" : [ "VVV", "VVV", "VBA" ]
+					}
+				}
+			},
+			"faStingersPost" : {
+				"name" : "Stingers Post",
+				"creatures" : [[ "falv4" ]],
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/dwellings/dwelling-4.def",
+						"mask" : [ "VBBBV", "VBBBB", "VVBAV" ]
+					}
+				}
+			},
+			"faAirstrip" : {
+				"name" : "Airstrip",
+				"creatures" : [[ "falv5" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/dwellings/dwelling-5.def",
+						"mask" : [ "VBB", "BAV" ]
+					}
+				}
+			},
+			"faAncientRefinery" : {
+				"name" : "Ancient Refinery",
+				"creatures" : [[ "falv6" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/dwellings/dwelling-6.def",
+						"mask" : [ "VVV", "VBB", "ABV" ]
+					}
+				}
+			},
+			"faGarage" : {
+				"name" : "Detached Garage",
+				"creatures" : [[ "falv7" ]],
+				"guards" : true,
+				"templates" : {
+					"default" : {
+						"animation" : "farriery/dwellings/dwelling-7.def",
+				        "mask" : [ "VVVV", "VVBV", "VABB" ]
+					}
+				}
+			},
+			
+			"faRancidCave" : {
+				"name" : "Rancid Cave",
+				"creatures" : [[ "faAcidDragon" ]],
+				"guards" : true,
+                 "templates" : {
+					"default" : {
+						"animation" : "farriery/dwellings/dwelling-8.def",
+						"mask" : [ "0VV", "VBB", "VAB" ]
+					}
+				}
+			}
+		}		
+	}
+}

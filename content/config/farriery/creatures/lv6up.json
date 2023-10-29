@@ -1,0 +1,82 @@
+{
+	"falv6up":
+	{
+		"name" :
+		{
+			"plural" : "Heavy Tanks",
+			"singular" : "Heavy Tank"
+		},
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 4
+		},
+		"faction" : "farriery",
+		"aiValue" : 2809,
+		"fightValue" : 2137,
+		"attack" : 18,
+		"defense" : 20,
+		"hitPoints" : 130,
+		"speed" : 8,
+		"cost" :
+		{
+			"gold" : 1400
+       		},
+		"damage" :
+		{
+			"max" : 35,
+			"min" : 25
+		},
+		"graphics" :
+		{
+			"animation" : "farriery/battle/lv6up.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "farriery/map/lv6up",
+			"iconSmall" : "farriery/iconsSmall/lv6up.bmp",
+			"iconLarge" : "farriery/iconsBig/lv6up.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"level" : 6,
+		"sound" :
+		{
+			"attack" : "farriery/tankATTK.wav",
+			"defend" : "farriery/CBRGDFND.wav",
+			"killed" : "farriery/tankKILL.wav",
+			"move" : "farriery/tankMOVE.wav",
+			"wince" : "farriery/tankWNCE.wav"
+		},
+	"abilities" :
+		{
+			"fearless" :
+			{
+				"type" : "FEARLESS"
+			},
+            "multiAttack" : 
+			{
+				"type" : "BLOCKS_RETALIATION"
+
+			},
+            "panzer" : 
+			{
+				"type" : "SPELL_IMMUNITY",
+				"subtype" : "spell.landMine",
+				"addInfo" : 0
+			},
+			 "spellAfterAttack" :
+			{
+                                 "type": "SPELL_AFTER_ATTACK",
+                                 "subtype": "spell.chainLightning",
+                                 "val" : 20,
+                                 "addInfo": 0
+			},
+			"lightningBoltPOwer" :
+			{
+				"type": "SPECIFIC_SPELL_POWER",
+				"subtype":"spell.chainLightning",
+				"val" : 1
+			},
+		}
+	}
+}

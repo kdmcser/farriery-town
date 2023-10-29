@@ -1,0 +1,83 @@
+{
+	"falv7":
+	{
+		"name" :
+		{
+			"plural" : "Mechanical Dragons",
+			"singular" : "Mechanical Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "farriery",
+		"aiValue" : 3683,
+		"attack" : 21,
+		"cost" :
+		{
+			"gold" : 1800,
+			"mercury" : 1
+		},
+		"damage" :
+		{
+		    "max" : 65,
+			"min" : 35
+		},
+		"defense" : 21,
+		"fightValue" : 3001,
+		"graphics" :
+		{
+			"animation" : "farriery/battle/lv7.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.23 },
+			"map" : "farriery/map/lv7.def",
+			"iconSmall" : "farriery/iconsSmall/lv7.bmp",
+			"iconLarge" : "farriery/iconsBig/lv7.bmp",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 160,
+		"level" : 7,
+		"upgrades":
+		[
+			"falv7up"
+		],
+		"sound" :
+		{
+			"attack" : "farriery/S210ATTK.wav",
+			"defend" : "farriery/S210DFND.wav",
+			"killed" : "farriery/S210KILL.wav",
+			"move"   : "farriery/S210MOVE.wav",
+			"wince"  : "farriery/S210WNCE.wav"
+		},
+		"speed" : 8,
+		"abilities":
+		{
+			"dragon" : 
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+            "nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"king1" :
+			{
+				"type" : "KING",
+				"val" : 0,
+				"valueType" : "ADDITIVE_VALUE"
+			},
+			"HPregenerate" : 
+			{
+				"type" : "HP_REGENERATION",
+				"subtype" : 1,
+				"val" : 30
+			}
+		}
+	}
+}
