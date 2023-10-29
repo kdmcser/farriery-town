@@ -3,10 +3,10 @@
 	{
 		"class" : "technik",
 		"female" : true,
-                 "texts" :
+		"texts" :
 		{
 			"name" : "Resurrecta",
-			"biography" : "Resurrecta nie chce wyjawic nikomu swojego pochodzenia. Planuje odtworzyc system bram Starozytnych. Jest jedna z niewielu osob, ktore znaly Kastore'a przed jego ekspansja na Antadarich i byc moze jedyna, ktora moze go powstrzymac.",
+			"biography" : "Resurrecta does not want to reveal his origins to anyone. I plan to recreate the ancient gate system. She is one of the few people who knew Kastore before his expansion into Antadari, and perhaps the only one who can stop him.",
 			"specialty" : 
 			{
 				"description" : "Hero can cast the Resurrection spell with increased effectiveness",

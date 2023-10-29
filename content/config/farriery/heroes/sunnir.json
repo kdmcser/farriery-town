@@ -6,7 +6,7 @@
 		"texts" :
 		{
 			"name" : "Sunnir",
-			"biography" : "Rodzina Sunnir od pokolen mieszka w Deyji. Sunnir od dziecka marzyla o odkrywaniu swiata i o dokonywaniu wielkich czynow, jednak jako goblin mogla pelnic u nekromantow role co najwyzej niepozbawionej wlasnej woli sluzacej. Natomiast brak doswiadczenia w walce sprawia, ze nigdy by nie zdobyla szacunku wsrod goblinow z Krewlodu. Dolaczenie do armii Kastore'a to dla niej doskonala okazja zeby udowodnic swoja wartosc.",
+			"biography" : "The Sunnir family has lived in Deyja for generations. Since childhood, Sunnir dreamed of discovering the world and accomplishing great deeds, but as a goblin, she could only serve as a servant to the necromancers. However, her lack of experience in combat means that she would never gain respect among the goblins of Krewlod. Joining Kastore's army is the perfect opportunity for her to prove her worth.",
 			"specialty" :
 			{
 				"description" : "{Scouting}\r\n\r\nReceives a 5% per level bonus to Scouting skill.",

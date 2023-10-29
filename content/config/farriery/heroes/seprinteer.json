@@ -6,7 +6,7 @@
 		"texts" :
 		{
 			"name" : "Seprinteer",
-			"biography" : "Seprinteer w mlodosci uczestniczyl w wielu wyprawach wraz z innymi goblinami z Krewlod. W czasie jednej z nich znalazl, ukryty w glebokiej jaskini, miotacz. Bardzo szybko nauczyl sie go obslugiwac. Dzierzac swoja nowa bron mogl wedrowac dokad tylko chcial, bo zaden potwor nie byl dla niego wystarczajacym wyzwaniem. Naturalnym bylo, ze wstapil do armii Kastore'a jako wysokiej rangi przywodca.", 
+			"biography" : "In his youth, Seprinteer went on many expeditions with the other goblins of Krewlod. During one of them, he found a thrower hidden in a deep cave. He learned to use it very quickly. Wielding his new weapon, he could wander wherever he wanted, because no monster was enough of a challenge for him. It was natural for him to join Castore's army as a high-ranking leader.",
 			"specialty" :
 			{
 				"description" : "{Grunt Soldiers and Foot Soldiers}\r\n\r\nIncreases Speed of any Grunt Soldiers or Foot Soldiers by 1 and their Attack and Defense skills by 5% for every 2 levels (rounded up)",

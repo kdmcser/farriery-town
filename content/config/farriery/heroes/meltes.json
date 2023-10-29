@@ -6,7 +6,7 @@
 		"texts" :
 		{
 			"name" : "Meltes",
-			"biography" : "undetermined.",
+			"biography" : "N/A",
 			"specialty" :
 			{
 				"description" : "{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill.",
@@ -24,8 +24,8 @@
 		"army" :
 		[
 			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+			{ "creature" : "falv2", "min" : 6, "max" : 9 },
+			{ "creature" : "falv3", "min" : 4, "max" : 6}
 		],
 		"skills" : [
 			{
@@ -40,12 +40,13 @@
 		"specialty" : {
 			"bonuses" : {
 				"armorer" : {
-					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "GENERAL_DAMAGE_REDUCTION",
-					"subtype" : -1,
-					"updater" : "TIMES_HERO_LEVEL",
+					"subtype" : "damageTypeAll",
+					"targetSourceType" : "SECONDARY_SKILL",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
+					"valueType" : "PERCENT_TO_TARGET_TYPE",
+					"updater" : "TIMES_HERO_LEVEL"
+
 				}
 			}
 		}

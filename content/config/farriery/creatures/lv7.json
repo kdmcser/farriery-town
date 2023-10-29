@@ -72,10 +72,9 @@
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"HPregenerate" : 
+			"HPregenerate" :
 			{
 				"type" : "HP_REGENERATION",
-				"subtype" : 1,
 				"val" : 30
 			}
 		}
