@@ -16,7 +16,7 @@
 		"fightValue" : 397,
 		"attack" : 10,
 		"hasDoubleWeek" : true,
-        "cost" :
+		"cost" :
 		{
 			"gold" : 200
 		},
@@ -34,7 +34,7 @@
 			"iconSmall" : "farriery/iconsSmall/lv3.bmp",
 			"iconLarge" : "farriery/iconsBig/lv3.bmp",
 			"timeBetweenFidgets" : 1
-        },
+		},
 		"growth" : 7,
 		"hitPoints" : 18,
 		"level" : 3,
@@ -53,7 +53,7 @@
 		"speed" : 6,
 		"abilities" :
 		{
-            "abilities1":
+			"abilities1":
 			{
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
@@ -69,10 +69,10 @@
 				"subtype" : "spell.chainLightning",
 				"val" : 100
 			},
-			  "immuneToFire" :
+			"immuneToFire" :
 			{
-				"type" : "FIRE_IMMUNITY",
-				"subtype" : 0
+				"type" : "SPELL_SCHOOL_IMMUNITY",
+				"subtype" : "spellSchool.fire"
 			}
 		}
 	}

@@ -280,7 +280,7 @@
 					"bonuses": [
 						{
 							"type" : "SPELL_DAMAGE",
-							"subtype" : 0,
+							"subtype" : "spellSchool.air",
 							"val" : 50,
 							"valueType" : "BASE_NUMBER"
 						},

@@ -11,10 +11,10 @@
 		"aiValue" : 1850,
 		"special" : true,
 		"attack" : 19,
-        "cost": 
+		"cost":
 		{
-        	"gold": 5000
-        },
+			"gold": 5000
+		},
 		"damage" :
 		{
 			 "max" : 14,
@@ -53,27 +53,27 @@
 		"doubleWide" : true,
 		"growth" : 0,
 		"hitPoints" : 132,
-        "shots" : 24,
+		"shots" : 24,
 		"sound" :
 		{
 			"killed": "farriery/CANNKILL.wav",
-                        "shoot" : "farriery/CANNSHOT.wav",
+			"shoot" : "farriery/CANNSHOT.wav",
 			"wince":  "farriery/CANNWNCE.wav"
 		},
 		"speed" : 0,
 		"abilities" :
 		{
-        	"shooter" :
+			"shooter" :
 			{
 				"type" : "SHOOTER"
 			},
-			"deathStare" : 
+			"deathStare" :
 			{
 				"type" : "DEATH_STARE",
-				"subtype" : 0, 
-				"val" : 25 
+				"subtype" : "deathStareGorgon",
+				"val" : 25
 			},
-		      "noRetaliation" :
+			"noRetaliation" :
 			{
 				"type" : "NO_RETALIATION",
 				 "val" : 0

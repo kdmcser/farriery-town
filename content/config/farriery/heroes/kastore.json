@@ -6,7 +6,7 @@
 		"texts" :
 		{
 			"name" : "Kastore",
-			"biography" : "Kastore nie chce wyjawic swoim poddanym jego pochodzenia. Wiadomo natomiast, ze jest poteznym elfem-czarnoksieznikiem znajacym wiele sekretow Starozytnych. Przed powstaniem Niebianskich Kuzni byl krolem Dejii. Planuje zdobyc swiat przy pomocy Starozytnej broni i w dazeniu do celu nie cofnie sie przed niczym.",
+			"biography" : "Kastore does not want to reveal his origins to his subjects. What is known is that he is a powerful elf-wizard who knows many secrets of the Ancients. Before the creation of the Celestial Forges, he was the king of Dejia. He plans to conquer the world with the help of Ancient weapons and will stop at nothing to achieve his goal.",
 			"specialty" : 
 			{
 				"description" : "{Chain Lightning}\r\n\r\nCasts Chain Lightning with increased effect, based on hero level.",

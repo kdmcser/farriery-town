@@ -6,7 +6,7 @@
 		"texts" :
 		{
 			"name" : "Tarkin",
-			"biography" : "Kiedys Tarkin byl inzynierem na uslugach Eeofolu. Po przegranej wojnie z Erathia uciekl do Deyji, by tam spotkac Kastore'a budujacego swa armie. Zafascynowany technologia Starozytnych bez wahania przylaczyl sie do planu odbudowy Niebianskich Kuzni.",
+			"biography" : "arkin was once an engineer in the employ of Eeofol. After losing the war with Erathia, he fled to Deyja to meet Kastore building his army. Fascinated by the technology of the Ancients, he unhesitatingly joined the plan to rebuild the Celestial Forges.",
 			"specialty" : 
 			{
 				"description" : "{Land Mine}\r\n\r\nCasts Land Mine with increased effect, based on hero level.",

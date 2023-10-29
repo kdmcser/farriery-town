@@ -7,7 +7,7 @@
 	"modType" : "Town",
 	"compatibility" :
 	{
-		"min" : "1.3.0"
+		"min" : "1.4.0"
 	},
 	"factions" :
 	[
@@ -18,26 +18,25 @@
 		"config/farriery/town/structures.json",
 		"config/farriery/town/puzzle.json"
 	],
-	
-     "creatures" :
+	"creatures" :
 	[
 		"config/farriery/creatures/lv1.json",
 		"config/farriery/creatures/lv1up.json",
-        "config/farriery/creatures/lv2.json",
+		"config/farriery/creatures/lv2.json",
 		"config/farriery/creatures/lv2up.json",
 		"config/farriery/creatures/lv3.json",
 		"config/farriery/creatures/lv3up.json",
-        "config/farriery/creatures/lv4.json",
+		"config/farriery/creatures/lv4.json",
 		"config/farriery/creatures/lv4up.json",
-	    "config/farriery/creatures/lv5.json",
-        "config/farriery/creatures/lv5up.json",
-        "config/farriery/creatures/lv6.json",
+		"config/farriery/creatures/lv5.json",
+		"config/farriery/creatures/lv5up.json",
+		"config/farriery/creatures/lv6.json",
 		"config/farriery/creatures/lv6up.json",
 		"config/farriery/creatures/lv7.json",
 		"config/farriery/creatures/lv7up.json",
-        "config/farriery/creatures/Arkhon.json",
-        "config/farriery/creatures/AcidDragon.json",
-        "config/farriery/creatures/Mortira.json"
+		"config/farriery/creatures/Arkhon.json",
+		"config/farriery/creatures/AcidDragon.json",
+		"config/farriery/creatures/Mortira.json"
 	],
 	"heroClasses" :
 	[
@@ -45,15 +44,15 @@
 		"config/farriery/heroClasses/Technik.json"
 
 	],
-    "artifacts":
-    [              
-        "config/farriery/artifacts/MortiraArt.json"        
-    ],
+	"artifacts":
+	[
+		"config/farriery/artifacts/MortiraArt.json"
+	],
 	"heroes" :
 	[
 		"config/farriery/heroes/steraks.json",
-        "config/farriery/heroes/Horna.json",
-        "config/farriery/heroes/seprinteer.json",
+		"config/farriery/heroes/Horna.json",
+		"config/farriery/heroes/seprinteer.json",
 		"config/farriery/heroes/Meltes.json",
 		"config/farriery/heroes/singhel.json",
 		"config/farriery/heroes/niclas.json",
@@ -67,12 +66,12 @@
 		"config/farriery/heroes/maximus.json",
 		"config/farriery/heroes/cistrict.json",
 		"config/farriery/heroes/karen.json",
-		"config/farriery/heroes/resurrecta.json"		
+		"config/farriery/heroes/resurrecta.json"
 	],
-    "objects" :
-    [ 
-         "config/farriery/dwellings",
-		 "config/farriery/boats.json"
+	"objects" :
+	[
+		"config/farriery/dwellings",
+		"config/farriery/boats.json"
 	],
 	"spells" :
 	[

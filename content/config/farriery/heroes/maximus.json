@@ -6,12 +6,12 @@
 		"texts" :
 		{
 			"name" : "Maximus",
-			"biography" : "Niewiele wiadomo o prawej rece krola Deyji - kraza plotki, ze jego twarz zostala zdeformowana przez technologie Niebianskiej Kuzni. Nikt jednak nie moze podwazyc jego mistrzowskich wrecz zdolnosci taktycznych.",
+			"biography" : "Little is known about King Deyja's right hand - it is rumored that his face was deformed by the technology of the Celestial Forge. However, no one can question his masterful combat skills",
 			"specialty" :
 			{
-				"description" : "{Tactics}\r\n\r\nReceives a 5% per level bonus to Tactics skill.",
-				"tooltip" : "Secondary Skill Bonus: Tactics",
-				"name" : "Tactics"
+				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"tooltip" : "Primary Skill Bonus: Offence",
+				"name" : "Offence"
 			}
 		},
 		"images" :
@@ -24,8 +24,8 @@
 		"army" :
 		[
 			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+			{ "creature" : "falv2", "min" : 6, "max" : 9 },
+			{ "creature" : "falv3", "min" : 4, "max" : 6}
 		],
 		"skills" :
 		[
@@ -41,12 +41,12 @@
 		"specialty" : {
 			"bonuses" : {
 				"offence" : {
-					"subtype" : 0,
 					"type" : "PERCENTAGE_DAMAGE_BOOST",
-					"updater" : "TIMES_HERO_LEVEL",
+					"subtype" : "damageTypeMelee",
+					"targetSourceType" : "SECONDARY_SKILL",
 					"val" : 5,
 					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"targetSourceType" : "SECONDARY_SKILL"
+					"updater" : "TIMES_HERO_LEVEL"
 				}
 			}
 		}
