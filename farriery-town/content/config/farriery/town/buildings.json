@@ -251,7 +251,7 @@
 				},
 				"special1" :
 				{
-					"description" : "The Nanomedic increase attack of visiting hero by +1.",
+					"description" : "The Nanomedic increase Attack of visiting hero by +1.",
 					"name" : "Nanomedic",
 					"cost" : {
 						"gold" : 1000
