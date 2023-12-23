@@ -3,7 +3,7 @@
 	"description" : "Town Farriery based on old Forge project. Connected with Spoiled Land inside New Terrains Pack submods (see Screenshots TAB).",
 	"author" : "Polish modders team, zeryss",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.0.1",
+	"version" : "2.0.2",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
 	{
+		"2.0.2"   : [ "Adjusted Commanders stats" ],
 		"2.0.1"   : [ "Removed Spoiled land to independed mod" ],
 		"2.0.0"   : [ "Initial release" ]
 	},

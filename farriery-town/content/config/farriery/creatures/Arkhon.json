@@ -11,8 +11,8 @@
 		"attack" : 5,
 		"damage" :
 		{
-			 "max" : 15,
-			 "min" : 7
+			 "max" : 12,
+			 "min" : 6
 		},
 		"defense" : 5,
 		"fightValue" : 980,
@@ -42,7 +42,7 @@
 		},
 
 		"growth" : 1,
-		"hitPoints" : 50,
+		"hitPoints" : 40,
         "level" : 0,
 		"shots" : 24,
 		"doubleWide" : false,
@@ -56,13 +56,9 @@
 			"wince"  : "farriery/ARKWNCE.wav",
                         "shoot"  : "farriery/ARKSHOT.wav"
 		},
-		"speed" : 5,
+		"speed" : 4,
 		"abilities" :
 		{
-        	"shooter" :
-			{
-				"type" : "SHOOTER"
-			},
 
 			"magicResistance" :
 			{
