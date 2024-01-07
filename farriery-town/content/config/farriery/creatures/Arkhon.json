@@ -7,7 +7,7 @@
 			"singular" : "Arkhon"
 		},
 		"faction" : "farriery",
-		"aiValue" : 1092,
+		"aiValue" : 156,
 		"attack" : 5,
 		"damage" :
 		{
@@ -15,7 +15,7 @@
 			 "min" : 6
 		},
 		"defense" : 5,
-		"fightValue" : 980,
+		"fightValue" : 130,
 		"graphics" :
 		{
 			"animation" : "farriery/battle/lv0.def",
@@ -41,7 +41,7 @@
 			}
 		},
 
-		"growth" : 1,
+		"growth" : 9,
 		"hitPoints" : 40,
         "level" : 0,
 		"shots" : 24,
@@ -68,12 +68,12 @@
 			"castsAmount" :
 			{
 				"type" : "CASTS",
-				"val" : 2
+				"val" : 1
 			},
 			"enchant" :
 			{
 				"type" : "CREATURE_ENCHANT_POWER",
-				"val" : 2
+				"val" : 1
 			},
 			"spellpower" :
 			{

@@ -3,7 +3,7 @@
 	"description" : "Town Farriery based on old Forge project. Connected with Spoiled Land inside New Terrains Pack submods (see Screenshots TAB).",
 	"author" : "Polish modders team, zeryss",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.0.2",
+	"version" : "2.0.3",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -11,9 +11,17 @@
 	},
 	"changelog" :
 	{
+		"2.0.3"   : [ "Added Chinese translation, the creatures' stackExp and fixed the commander" ],
 		"2.0.2"   : [ "Adjusted Commanders stats" ],
 		"2.0.1"   : [ "Removed Spoiled land to independed mod" ],
 		"2.0.0"   : [ "Initial release" ]
+	},
+	"chinese" : {
+		"name" : "铸造厂",
+		"description" : "铸造厂城镇基于旧铸造项目。与新地形Mod内的废土挂钩(见屏幕截图选项卡)。",
+		"translations" : [
+			"translation/farriery/chinese.json"
+		]
 	},
 	"depends" :
 	[
