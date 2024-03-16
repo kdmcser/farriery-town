@@ -17,8 +17,8 @@
 		"2.0.0"   : [ "Initial release" ]
 	},
 	"chinese" : {
-		"name" : "铸造厂",
-		"description" : "铸造厂城镇基于旧铸造项目。与新地形Mod内的废土挂钩(见屏幕截图选项卡)。",
+		"name" : "异星",
+		"description" : "异星是是一个柴油朋克风格的高科技种族，基于《英雄无敌III》资料片机械族（Forge）废案制作，和新地形模组的Spoiled Land Terrain地形接壤。",
 		"translations" : [
 			"translation/farriery/chinese.json"
 		]
