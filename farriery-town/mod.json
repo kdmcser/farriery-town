@@ -3,7 +3,7 @@
 	"description" : "Town Farriery based on old Forge project. Connected with Spoiled Land inside New Terrains Pack submods (see Screenshots TAB).",
 	"author" : "Polish modders team, zeryss",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.0.3",
+	"version" : "2.0.4",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
 	{
+		"2.0.4"   : [ "Russian translation by Anton Sergeew" ],
 		"2.0.3"   : [ "Added Chinese translation, the creatures' stackExp and fixed the commander" ],
 		"2.0.2"   : [ "Adjusted Commanders stats" ],
 		"2.0.1"   : [ "Removed Spoiled land to independed mod" ],
@@ -21,6 +22,13 @@
 		"description" : "异星是是一个柴油朋克风格的高科技种族，基于《英雄无敌III》资料片机械族（Forge）废案制作，和新地形模组的Spoiled Land Terrain地形接壤。",
 		"translations" : [
 			"translation/farriery/chinese.json"
+		]
+	},
+	"russian" : {
+		"name" : "Старая Кузня",
+		"description" : "Новый город",
+		"translations" : [
+			"translation/farriery/russian.json"
 		]
 	},
 	"depends" :
