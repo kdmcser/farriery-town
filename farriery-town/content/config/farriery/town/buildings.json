@@ -263,7 +263,7 @@
 						"visitMode" : "hero",
 						"rewards" : [
 							{
-								"message" : "@core.genrltxt.584",
+								"message" : "Some time spent at the Nanomedic allows you to learn more effective combat skills (+1 Attack Skill)",
 								"primary" : { "attack" : 1 }
 							}
 						]
