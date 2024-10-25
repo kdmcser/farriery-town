@@ -37,7 +37,6 @@
 			"horde" : [ 0, -1 ],
 			"mageGuild" : 5,
 			"primaryResource" : "mercury",
-			"warMachine" : "faMortira",
 			"buildingsIcons" : "farriery/town-hall.def",
 			"icons" :
 			{
