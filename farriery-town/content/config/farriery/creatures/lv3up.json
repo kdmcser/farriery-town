@@ -14,7 +14,7 @@
 		"faction" : "farriery",
 		"aiValue" : 404,
 		"fightValue" : 397,
-		"attack" : 10,
+		"attack" : 11,
 		"hasDoubleWeek" : true,
 		"cost" :
 		{
@@ -25,7 +25,7 @@
 			 "max" : 6,
 			 "min" : 5
 		},
-		"defense" : 7,
+		"defense" : 10,
 		"graphics" :
 		{
 			"animation" : "farriery/battle/lv3up.def",
@@ -36,7 +36,7 @@
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 7,
-		"hitPoints" : 22,
+		"hitPoints" : 35,
 		"level" : 3,
 		"sound" :
 		{
@@ -111,6 +111,13 @@
 					"type" : "STACK_HEALTH"
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "ADDITIONAL_ATTACK"
+				},
+				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]
 			},
 			{
 				"bonus" : { "type" : "DOUBLE_DAMAGE_CHANCE" },

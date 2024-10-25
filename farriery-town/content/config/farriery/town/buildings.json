@@ -196,6 +196,7 @@
 						"wood" : 5,
 						"gold" : 500
 					},
+					"marketModes" : ["resource-resource", "resource-player"],
 					"id" : 14
 				},
 				"resourceSilo" :
@@ -208,12 +209,14 @@
 						"gold" : 5000
 					},
 					"requires" : [ "marketplace" ],
+					"produce": { "mercury": 1 },
 					"id" : 15
 				},
 				"blacksmith" :
 				{
 					"description" : "The Blacksmith provides your armies with Mortira.",
 					"name" : "Blacksmith",
+					"warMachine" : "faMortira",
 					"cost" :
 					{
 						"wood" : 5,
@@ -256,7 +259,15 @@
 					"cost" : {
 						"gold" : 1000
 					},
-					"type" : "attackVisitingBonus",
+					"configuration" : {
+						"visitMode" : "hero",
+						"rewards" : [
+							{
+								"message" : "@core.genrltxt.584",
+								"primary" : { "attack" : 1 }
+							}
+						]
+					},
 					"requires" : [ "allOf", ["blacksmith"], ["fort"] ],
 					"id" : 17
 				},

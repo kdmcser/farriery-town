@@ -14,17 +14,17 @@
 		"faction" : "farriery",
 		"aiValue" : 243,
 		"fightValue" : 249,
-		"attack" : 7,
+		"attack" : 9,
 		"cost" :
 		{
 			"gold" : 170
 		},
 		"damage" :
 		{
-			"max" : 4,
+			"max" : 5,
 			"min" : 2
 		},
-		"defense" : 5,
+		"defense" : 9,
 		"graphics" :
 		{
 			"animation" : "farriery/battle/lv2up.def",
@@ -36,7 +36,7 @@
 		},
 	
 		"growth" : 8,
-		"hitPoints" : 20,
+		"hitPoints" : 25,
 		"level" : 2,
 		"sound" :
 		{
@@ -91,6 +91,13 @@
 					"subtype" : "creatureDamageMin"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+			},
+			{
+				"bonus" : 
+				{
+					"type" : "MAGIC_RESISTANCE"
+				},
+				"values" : [ 4, 8, 12, 16, 20, 24, 28, 32, 26, 40 ]
 			},
 			{
 				"bonus" :

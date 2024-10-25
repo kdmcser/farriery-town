@@ -8,7 +8,7 @@
 		"town" :
 		{
 		
-			"musicTheme" : "music/farriery/theme",
+			"musicTheme" : [ "music/farriery/theme" ],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",

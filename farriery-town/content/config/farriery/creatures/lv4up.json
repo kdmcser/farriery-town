@@ -14,15 +14,15 @@
 		"faction" : "farriery",
 		"aiValue" : 1089,
 		"fightValue" : 969,
-		"attack" : 12,
+		"attack" : 13,
 		"defense" : 10,
 		"growth" : 3,
 		"hitPoints" : 70,
 		"shots" : 12,
-		"speed" : 5,
+		"speed" : 6,
 		"cost" :
 		{
-			"gold" : 400
+			"gold" : 450
 		},
 		"damage" :
 		{
@@ -68,6 +68,10 @@
 		"canShoot" :
 			{
 				"type" : "SHOOTER"
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
 			},
 			"enchanted" : 
 			{
@@ -128,6 +132,20 @@
 					"subtype" : "spell.disruptingRay",
 					"addInfo" : 1000 },
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NO_WALL_PENALTY"
+				},
+				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "NO_DISTANCE_PENALTY"
+				},
+				"values" : [ false, false, false, false, false, false, false, false, true, true ]
 			}
 		]
 	}

@@ -1,131 +1,122 @@
-{
-	"falv7up":
-	{
-		"name" :
-		{
-			"plural" : "Hydraulic Dragons",
-			"singular" : "Hydraulic Dragon"
-		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 3
-		},
-		"faction" : "farriery",
-		"aiValue" : 8800,
-		"attack" : 26,
-		"cost" :
-		{
-			"gold" : 5000,
-			"mercury" : 2
-		},
-		"damage" :
-		{
-			"max" : 65,
-			"min" : 35
-		},
-		"defense" : 28,
-		"fightValue" : 6100,
-		"graphics" :
-		{
-			"animation" : "farriery/battle/lv7up.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.23 },
-			"map" : "farriery/map/lv7up.def",
-			"iconSmall" : "farriery/iconsSmall/lv7up.bmp",
-			"iconLarge" : "farriery/iconsBig/lv7up.bmp",
-			"timeBetweenFidgets" : 1
-		},
-		"doubleWide" : true,
-		"growth" : 1,
-		"hitPoints" : 225,
-		"level" : 7,
-		"sound" :
-		{
-			"attack" : "farriery/S210ATTK.wav",
-			"defend" : "farriery/S210DFND.wav",
-			"killed" : "farriery/S210KILL.wav",
-			"move"   : "farriery/S210MOVE.wav",
-			"wince"  : "farriery/S210WNCE.wav"                    
-		},
-		"speed" : 11,
-		"abilities":
-		{
-			"dragon" : 
+{  
+	"falv7up": {  
+		"name": {  
+			"plural": "Hydraulic Dragons",  
+			"singular": "Hydraulic Dragon"  
+		},  
+		"advMapAmount": {  
+			"max": 8,  
+			"min": 3  
+		},  
+		"faction": "farriery",  
+		"aiValue": 11000,  
+		"attack": 32,  
+		"cost": {  
+			"gold": 6000,  
+			"mercury": 3  
+		},  
+		"damage": {  
+			"max": 65,  
+			"min": 35  
+		},  
+		"defense": 35,  
+		"fightValue": 10800,  
+		"graphics": {  
+			"animation": "farriery/battle/lv7up.def",  
+			"animationTime": { "attack": 1, "idle": 10, "walk": 1.23 },  
+			"map": "farriery/map/lv7up.def",  
+			"iconSmall": "farriery/iconsSmall/lv7up.bmp",  
+			"iconLarge": "farriery/iconsBig/lv7up.bmp",  
+			"timeBetweenFidgets": 1  
+		},  
+		"doubleWide": true,  
+		"growth": 1,  
+		"hitPoints": 350,  
+		"level": 7,  
+		"sound": {  
+			"attack": "farriery/S210ATTK.wav",  
+			"defend": "farriery/S210DFND.wav",  
+			"killed": "farriery/S210KILL.wav",  
+			"move": "farriery/S210MOVE.wav",  
+			"wince": "farriery/S210WNCE.wav"  
+		},  
+		"speed": 11,  
+		"abilities": {  
+			"dragon": {  
+				"type": "DRAGON_NATURE"  
+			},  
+			"fearless": {  
+				"type": "FEARLESS"  
+			},  
+			"fireBreath": {  
+				"type": "TWO_HEX_ATTACK_BREATH"  
+			},  
+			"nonliving": {  
+				"type": "NON_LIVING"  
+			},  
+			"king1": {  
+				"type": "KING",  
+				"val": 0,  
+				"valueType": "ADDITIVE_VALUE"  
+			},  
+			"HPregenerate": {  
+				"type": "HP_REGENERATION",  
+				"val": 100  
+			}, 
+			"firstStrike" :
 			{
-				"type" : "DRAGON_NATURE"
-			},
-			"fireBreath" :
-			{
-				"type" : "TWO_HEX_ATTACK_BREATH"
-			},
-            "nonliving" :
-			{
-				"type" : "NON_LIVING"
-			},
-            "king1" :
-			{
-				"type" : "KING",
-				"val" : 0,
-				"valueType" : "ADDITIVE_VALUE"
-			},
-			"HPregenerate" : 
-			{
-				"type" : "HP_REGENERATION",
-				"val" : 50
-			},
-			"lvl1imm" : 
-			{
-				"type" : "LEVEL_SPELL_IMMUNITY",
-				"val" : 3
-			},
-			"receptive" : 
-			{
-				"type" : "RECEPTIVE"
-			}
-		},
-		"stackExperience" :
- 
-		[
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
-			{
-				"bonus" :
-				{
-					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMax"
-				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
+				"type" : "FIRST_STRIKE"
+			}			
+		}, 
+		"stackExperience": [  
+			{  
+				"bonus": {  
+					"type": "PRIMARY_SKILL",  
+					"subtype": "primarySkill.attack"  
+				},  
+				"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  
+			},  
+			{  
+				"bonus": {  
+					"type": "PRIMARY_SKILL",  
+					"subtype": "primarySkill.defence"  
+				},  
+				"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  
+			},  
+			{  
+				"bonus": {  
+					"type": "CREATURE_DAMAGE",  
+					"subtype": "creatureDamageMax"  
+				},  
+				"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  
+			},  
+			{  
+				"bonus": {  
+					"type": "CREATURE_DAMAGE",  
+					"subtype": "creatureDamageMin"  
+				},  
+				"values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  
+			},  
+			{  
+				"bonus": {  
+					"type": "RECEPTIVE"  
+				},  
+				"values": [false, false, false, false, false, false, false, true, true, true]  
+			},  
 			{
 				"bonus" :
 				{
-					"type" : "CREATURE_DAMAGE",
-					"subtype" : "creatureDamageMin"
+					"type" : "LEVEL_SPELL_IMMUNITY"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},
-			{
-				"bonus" :
-				{
-					"valueType" : "PERCENT_TO_BASE",
-					"type" : "STACK_HEALTH"
-				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
-			}
-		]
-	}
+				"values" : [ 0, 0, 0, 1, 1, 2, 2, 3, 3, 3 ]
+			}, 
+			{  
+				"bonus": {  
+					"valueType": "PERCENT_TO_BASE",  
+					"type": "STACK_HEALTH"  
+				},  
+				"values": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50]  
+			}  
+		]  
+	}  
 }
