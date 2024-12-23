@@ -3,7 +3,7 @@
 	"description" : "Town Farriery based on old Forge project. Connected with Spoiled Land inside New Terrains Pack submods (see Screenshots TAB).",
 	"author" : "Polish modders team, zeryss",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.1.0",
+	"version" : "2.1.1",
 	"modType" : "Town",
 	"compatibility" :
 	{
@@ -11,6 +11,7 @@
 	},
 	"changelog" :
 	{
+		"2.1.1"   : [ "Fix Grail not to produce gold" ],
 		"2.1.0"   : [ "Update to vcmi-1.6 format", "Added creature system experience by fog" ],
 		"2.0.5"   : [ "Updated russian translation" ],
 		"2.0.4"   : [ "Russian translation by Anton Sergeew" ],
