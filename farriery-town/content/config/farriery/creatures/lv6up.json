@@ -1,13 +1,10 @@
 {
-	"falv6up":
-	{
-		"name" :
-		{
+	"falv6up" : {
+		"name" : {
 			"plural" : "Heavy Tanks",
 			"singular" : "Heavy Tank"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 8,
 			"min" : 4
 		},
@@ -18,19 +15,20 @@
 		"defense" : 20,
 		"hitPoints" : 130,
 		"speed" : 8,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1800
-       		},
-		"damage" :
-		{
+		},
+		"damage" : {
 			"max" : 35,
 			"min" : 35
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv6up.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "farriery/map/lv6up",
 			"iconSmall" : "farriery/iconsSmall/lv6up.bmp",
 			"iconLarge" : "farriery/iconsBig/lv6up.bmp",
@@ -39,102 +37,181 @@
 		"doubleWide" : true,
 		"growth" : 2,
 		"level" : 6,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/tankATTK.wav",
 			"defend" : "farriery/CBRGDFND.wav",
 			"killed" : "farriery/tankKILL.wav",
 			"move" : "farriery/tankMOVE.wav",
 			"wince" : "farriery/tankWNCE.wav"
 		},
-	"abilities" :
-		{
-			"fearless" :
-			{
+		"abilities" : {
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 			},
-            "multiAttack" : 
-			{
+			"multiAttack" : {
 				"type" : "BLOCKS_RETALIATION"
-
 			},
-            "panzer" : 
-			{
+			"panzer" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "landMine",
 				"addInfo" : 0
-
 			},
-			 "spellAfterAttack" :
-			{
-                "type": "SPELL_AFTER_ATTACK",
-				"subtype": "chainLightning",
+			"spellAfterAttack" : {
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "chainLightning",
 				"val" : 20
 			},
-			"lightningBoltPOwer" :
-			{
-				"type": "SPECIFIC_SPELL_POWER",
-				"subtype":"chainLightning",
+			"lightningBoltPOwer" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "chainLightning",
 				"val" : 1
-			},
+			}
 		},
-		"stackExperience" : [ {
-				"bonus" :
-				{
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ADDITIONAL_RETALIATION"
 				},
-				"values" : [ 0, 0, 0, 0, 1, 1, 2, 2, 3, 4 ]
+				"values" : [
+					0,
+					0,
+					0,
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "DOUBLE_DAMAGE_CHANCE"
 				},
-				"values" : [ 14, 18, 22, 26, 30, 34, 38, 42, 46, 50 ]
+				"values" : [
+					14,
+					18,
+					22,
+					26,
+					30,
+					34,
+					38,
+					42,
+					46,
+					50
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
-			{ "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ] } ]
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			}
+		]
 	}
 }

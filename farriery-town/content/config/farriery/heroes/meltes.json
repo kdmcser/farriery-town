@@ -1,31 +1,38 @@
 {
-	"meltes" :
-	{
+	"meltes" : {
 		"class" : "engineer",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Meltes",
 			"biography" : "N/A",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Armorer skill.",
 				"tooltip" : "Secondary Skill Bonus: Armorer",
 				"name" : "Armorer"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "farriery/heroes/meltes/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/meltes/spec-large.bmp",
 			"large" : "farriery/heroes/meltes/portrait-large.bmp",
 			"small" : "farriery/heroes/meltes/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2", "min" : 6, "max" : 9 },
-			{ "creature" : "falv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
 		"skills" : [
 			{
@@ -37,8 +44,8 @@
 				"skill" : "tactics"
 			}
 		],
-		"specialty": {
-			"secondary": "armorer"
+		"specialty" : {
+			"secondary" : "armorer"
 		}
 	}
 }

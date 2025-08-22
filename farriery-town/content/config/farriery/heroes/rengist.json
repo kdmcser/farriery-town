@@ -1,35 +1,40 @@
 {
-	"rengist" : 
-	{
+	"rengist" : {
 		"class" : "engineer",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Rengist",
 			"biography" : "His brother was Winston Boragus. After Kilgor came to power, Rengist realized that if he did not want to share his brother's fate, he had to leave Krewlod. He decided to join the army created by Kastore, hoping that with the help of new technology he would be able to avenge his brother.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases Speed of any Protective Droids or Battle Droids by 1 and their Attack and Defense skills by 5% for every 5 levels (rounded up)",
 				"tooltip" : "Creature Bonus: Protective Droids",
 				"name" : "Protective Droids"
 			}
 		},
-		"images" :
-		{
-			
+		"images" : {
 			"specialtySmall" : "farriery/heroes/rengist/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/rengist/spec-large.bmp",
 			"large" : "farriery/heroes/rengist/portrait-large.bmp",
 			"small" : "farriery/heroes/rengist/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"
@@ -39,7 +44,7 @@
 				"skill" : "scouting"
 			}
 		],
-		
+
 		"specialty" : {
 			"creature" : "falv5"
 		}

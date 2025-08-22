@@ -1,27 +1,20 @@
 {
-	"farriery" :
-	{
-		"town" :
-		{
-			"buildings" :
-			{
-				"mageGuild1" :
-				{
+	"farriery" : {
+		"town" : {
+			"buildings" : {
+				"mageGuild1" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 1",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"ore" : 5,
 						"gold" : 2000
 					}
 				},
-				"mageGuild2" :
-				{
+				"mageGuild2" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 2",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 4,
 						"ore" : 5,
@@ -31,12 +24,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild3" :
-				{
+				"mageGuild3" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 3",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 6,
 						"ore" : 5,
@@ -46,12 +37,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild4" : 
-				{
+				"mageGuild4" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 4",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 8,
 						"ore" : 5,
@@ -61,12 +50,10 @@
 						"gold" : 1000
 					}
 				},
-				"mageGuild5" :
-				{
+				"mageGuild5" : {
 					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
 					"name" : "Mage Guild Level 5",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"mercury" : 10,
 						"ore" : 5,
@@ -76,125 +63,114 @@
 						"gold" : 1000
 					}
 				},
-				"tavern" :
-				{
+				"tavern" : {
 					"name" : "Tavern",
 					"description" : "The Tavern increases morale for troops defending the city.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"shipyard" :
-				{
+				"shipyard" : {
 					"name" : "Shipyard",
 					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"gold" : 2000
 					}
 				},
-				"fort" :
-				{
+				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 20,
 						"ore" : 20,
 						"gold" : 5000
 					}
 				},
-				"citadel" :
-				{
+				"citadel" : {
 					"name" : "Citadel",
 					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 2500
 					}
 				},
-				"castle" :
-				{
+				"castle" : {
 					"name" : "Castle",
 					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 10,
 						"ore" : 10,
 						"gold" : 5000
 					}
 				},
-				"villageHall" :
-				{
+				"villageHall" : {
 					"name" : "Village Hall",
 					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day."
 				},
-				"townHall" :
-				{
+				"townHall" : {
 					"name" : "Town Hall",
 					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 2500
 					}
 				},
-				"cityHall" :
-				{
+				"cityHall" : {
 					"name" : "City Hall",
 					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 5000
 					},
-					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"blacksmith"
+						],
+						[
+							"marketplace"
+						]
+					]
 				},
-				"capitol" :
-				{
+				"capitol" : {
 					"name" : "Capitol",
 					"description" : "The Capitol earns your kingdom 4000 gold per day.",
-					"cost" :
-					{
+					"cost" : {
 						"gold" : 10000
 					}
 				},
-				"marketplace" :
-				{
+				"marketplace" : {
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 500
 					}
 				},
-				"resourceSilo" :
-				{
+				"resourceSilo" : {
 					"description" : "The Resourse Silo provides you with an additional +1 mercury each day.",
 					"name" : "Resourse Silo",
-					"cost" :
-					{
+					"cost" : {
 						"ore" : 5,
 						"gold" : 5000
 					},
-					"produce": { "mercury": 1 }
+					"produce" : {
+						"mercury" : 1
+					}
 				},
-				"blacksmith" :
-				{
+				"blacksmith" : {
 					"description" : "The Blacksmith provides your armies with Mortira.",
 					"name" : "Blacksmith",
 					"warMachine" : "faMortira",
-					"cost" :
-					{
+					"cost" : {
 						"wood" : 5,
 						"gold" : 1000
 					}
 				},
-				"horde1" :
-				{
+				"horde1" : {
 					"description" : "The Mess Hall increases weekly production of Foot Soldiers by 6 per week.",
 					"name" : "Mess Hall",
 					"cost" : {
@@ -202,23 +178,22 @@
 					},
 					"upgrades" : "dwellingLvl1"
 				},
-				"horde1Upgr" :
-				{
+				"horde1Upgr" : {
 					"description" : "The Mess Hall increases weekly production of Grunt Soldiers by 6 per week.",
 					"name" : "Mess Hall",
 					"cost" : {
 						"gold" : 1000
 					},
 					"upgrades" : "dwellingUpLvl1",
-					"requires" : [ "horde1" ]
+					"requires" : [
+						"horde1"
+					]
 				},
-				"ship" :
-				{
+				"ship" : {
 					"name" : "Shipyard",
 					"description" : "Your crew awaits."
 				},
-				"special1" :
-				{
+				"special1" : {
 					"description" : "The Nanomedic increase Attack of visiting hero by +1.",
 					"name" : "Nanomedic",
 					"cost" : {
@@ -229,25 +204,43 @@
 						"rewards" : [
 							{
 								"message" : "Some time spent at the Nanomedic allows you to learn more effective combat skills (+1 Attack Skill)",
-								"primary" : { "attack" : 1 }
+								"primary" : {
+									"attack" : 1
+								}
 							}
 						]
 					},
-					"requires" : [ "allOf", ["blacksmith"], ["fort"] ]
+					"requires" : [
+						"allOf",
+						[
+							"blacksmith"
+						],
+						[
+							"fort"
+						]
+					]
 				},
-				"special2" :
-				{
+				"special2" : {
 					"description" : "The Oil Well increases earns your kingdom 1000 gold per day.",
 					"name" : "Oil Well",
 					"cost" : {
 						"ore" : 5,
 						"gold" : 3000
 					},
-					"requires" :  [ "allOf", ["blacksmith"], ["resourceSilo"] ],
-                    "produce": { "gold": 1000 }
+					"requires" : [
+						"allOf",
+						[
+							"blacksmith"
+						],
+						[
+							"resourceSilo"
+						]
+					],
+					"produce" : {
+						"gold" : 1000
+					}
 				},
-				"grail" :
-				{
+				"grail" : {
 					"description" : "The Tesla's Coil increases weekly creature generation by 50 percent, adds 5000 gold per day during the siege of the castle by the enemy, the hero of the garrison receives the Thunder of the Titan in the spellbook and increases the spell power of Air Magic by 50%.",
 					"name" : "Tesla's Coil",
 					"bonuses" : [
@@ -267,50 +260,68 @@
 						}
 					]
 				},
-				"dwellingLvl1" :
-				{
+				"dwellingLvl1" : {
 					"description" : "The Barracks allow to recruit Grunt Soldiers.",
 					"name" : "Barracks",
 					"cost" : {
 						"gold" : 500,
 						"ore" : 10
 					},
-					"requires" : [ "fort" ]
+					"requires" : [
+						"fort"
+					]
 				},
-				"dwellingLvl2" :
-				{
+				"dwellingLvl2" : {
 					"description" : "The Slaughterhouse allows to recruit Cyber Deads.",
 					"name" : "Slaughterhouse",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 5,
-                        "ore" : 5
+						"ore" : 5
 					},
-					"requires" : [ "dwellingLvl1" ]
+					"requires" : [
+						"dwellingLvl1"
+					]
 				},
-				"dwellingLvl3" :
-				{
+				"dwellingLvl3" : {
 					"description" : "The Fire Basin allows to recruit Incenerators.",
 					"name" : "Fire Basin",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 10
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "blacksmith" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"blacksmith"
+						]
+					]
 				},
-				"dwellingLvl4" :
-				{
+				"dwellingLvl4" : {
 					"description" : "Stingers Post allows to recruit Stingers.",
 					"name" : "Stingers Post",
 					"cost" : {
 						"gold" : 2500,
 						"ore" : 5,
 						"gems" : 4
-						},
-					"requires" : [ "allOf", [ "dwellingLvl2" ], [ "mageGuild1" ], [ "dwellingLvl3" ] ]
+					},
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl3"
+						]
+					]
 				},
-				"dwellingLvl5" :
-				{
+				"dwellingLvl5" : {
 					"description" : "Airstrip allows to recruit Jump Soldiers.",
 					"name" : "Airstrip",
 					"cost" : {
@@ -318,25 +329,33 @@
 						"ore" : 5,
 						"wood" : 5
 					},
-					"requires" : [ "allOf", [ "dwellingLvl1" ], [ "dwellingLvl4" ] ]
+					"requires" : [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
 				},
-				"dwellingLvl6" :
-				{
+				"dwellingLvl6" : {
 					"description" : "Ancient Refinery allows to recruit Tanks.",
 					"name" : "Ancient Refinery",
 					"cost" : {
 						"gold" : 4500,
 						"ore" : 5,
 						"wood" : 5,
-                        "gems" : 2,
-                        "crystal" : 2,
+						"gems" : 2,
+						"crystal" : 2,
 						"sulfur" : 2,
 						"mercury" : 4
 					},
-					"requires" : [ "dwellingLvl4" ]
+					"requires" : [
+						"dwellingLvl4"
+					]
 				},
-				"dwellingLvl7" :
-				{
+				"dwellingLvl7" : {
 					"description" : "The Detached Garage allows to recruit Mechanical Dragons.",
 					"name" : "Detached Garage",
 					"cost" : {
@@ -346,32 +365,35 @@
 						"sulfur" : 5,
 						"crystal" : 5
 					},
-					"requires" : [ "dwellingLvl6" ]
+					"requires" : [
+						"dwellingLvl6"
+					]
 				},
-				"dwellingUpLvl1" :
-				{
+				"dwellingUpLvl1" : {
 					"description" : "The Barracks allow to recruit Foot Soldiers.",
 					"name" : "Upg. Barracks",
 					"cost" : {
 						"gold" : 1000,
 						"ore" : 5
 					},
-					"requires" : [ "tavern" ],
+					"requires" : [
+						"tavern"
+					],
 					"upgrades" : "dwellingLvl1"
 				},
-				"dwellingUpLvl2" :
-				{
+				"dwellingUpLvl2" : {
 					"description" : "The Slaughterhouse allows to recruit Cyber Zombies.",
 					"name" : "Upg. Slaughterhouse",
 					"cost" : {
 						"gold" : 1000,
 						"wood" : 10
 					},
-					"requires" : [ "blacksmith" ],
+					"requires" : [
+						"blacksmith"
+					],
 					"upgrades" : "dwellingLvl2"
 				},
-				"dwellingUpLvl3" :
-				{
+				"dwellingUpLvl3" : {
 					"description" : "The Fire Basin allows to recruit Purifiers.",
 					"name" : "Upg. Fire Basin",
 					"cost" : {
@@ -380,8 +402,7 @@
 					},
 					"upgrades" : "dwellingLvl3"
 				},
-				"dwellingUpLvl4" :
-				{
+				"dwellingUpLvl4" : {
 					"description" : "Upg. Stingers Post allows to recruit Bruisers.",
 					"name" : "Upg. Stingers Post",
 					"cost" : {
@@ -391,8 +412,7 @@
 					},
 					"upgrades" : "dwellingLvl4"
 				},
-				"dwellingUpLvl5" :
-				{
+				"dwellingUpLvl5" : {
 					"description" : "Upg. Airstrip allows to recruit Jump Troopers.",
 					"name" : "Upg. Airstrip",
 					"cost" : {
@@ -401,11 +421,12 @@
 						"ore" : 5,
 						"crystal" : 5
 					},
-					"requires" : [ "dwellingLvl4" ],
+					"requires" : [
+						"dwellingLvl4"
+					],
 					"upgrades" : "dwellingLvl5"
 				},
-				"dwellingUpLvl6" :
-				{
+				"dwellingUpLvl6" : {
 					"description" : "Upg. Ancient Refinery allows to recruit Heavy Tanks.",
 					"name" : "Upg. Ancient Refinery",
 					"cost" : {
@@ -415,22 +436,22 @@
 					},
 					"upgrades" : "dwellingLvl6"
 				},
-				"dwellingUpLvl7" :
-				{
+				"dwellingUpLvl7" : {
 					"description" : "The Detached Garage allows to recruit Hydraulic Dragons.",
 					"name" : "Upg. Detached Garage",
 					"cost" : {
-						"gold" : 20000, 
+						"gold" : 20000,
 						"ore" : 5,
-                        "wood" : 5,
+						"wood" : 5,
 						"sulfur" : 15,
 						"mercury" : 15
 					},
-					"requires" : [ "dwellingLvl4" ],
+					"requires" : [
+						"dwellingLvl4"
+					],
 					"upgrades" : "dwellingLvl7"
 				}
 			}
 		}
 	}
 }
-

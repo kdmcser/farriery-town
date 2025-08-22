@@ -1,36 +1,41 @@
 {
-	"niclas" :
-	{
+	"niclas" : {
 		"class" : "engineer",
 		"female" : false,
 
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Niclas",
 			"biography" : "N/A",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases kingdom's income by 1 crystal per day",
 				"tooltip" : "+1 Crystal each day",
 				"name" : "+1 Crystals"
 			}
 		},
-		"images" :
-		{
-			
+		"images" : {
 			"specialtySmall" : "farriery/heroes/niclas/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/niclas/spec-large.bmp",
 			"large" : "farriery/heroes/niclas/portrait-large.bmp",
 			"small" : "farriery/heroes/niclas/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "logistics"

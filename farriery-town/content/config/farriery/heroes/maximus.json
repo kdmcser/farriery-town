@@ -1,34 +1,40 @@
 {
-	"maximus" : 
-	{
+	"maximus" : {
 		"class" : "engineer",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Maximus",
 			"biography" : "Little is known about King Deyja's right hand - it is rumored that his face was deformed by the technology of the Celestial Forge. However, no one can question his masterful combat skills",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Offence skill.",
 				"tooltip" : "Primary Skill Bonus: Offence",
 				"name" : "Offence"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "farriery/heroes/maximus/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/maximus/spec-large.bmp",
 			"large" : "farriery/heroes/maximus/portrait-large.bmp",
 			"small" : "farriery/heroes/maximus/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2", "min" : 6, "max" : 9 },
-			{ "creature" : "falv3", "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "pathfinding"
@@ -38,8 +44,8 @@
 				"skill" : "offence"
 			}
 		],
-		"specialty": {
-			"secondary": "offence"
+		"specialty" : {
+			"secondary" : "offence"
 		}
 	}
 }

@@ -1,109 +1,152 @@
 {
-	"faCyberHunter":
-	{
-		"name" :
-		{
+	"faCyberHunter" : {
+		"name" : {
 			"plural" : "Carnivores",
-		      "singular" : "Carnivore"
+			"singular" : "Carnivore"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 25,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 25,
+			"min" : 16
 		},
 		"faction" : "farriery",
 		"aiValue" : 324,
 		"attack" : 9,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 240
 		},
-		"damage" :
-		{
-			 "max" : 5,
-			 "min" : 3
+		"damage" : {
+			"max" : 5,
+			"min" : 3
 		},
 		"defense" : 7,
 		"fightValue" : 332,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/cyber.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.2 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.2
+			},
 			"map" : "farriery/map/cyber.def",
 			"iconSmall" : "farriery/iconsSmall/cyber.bmp",
 			"iconLarge" : "farriery/iconsBig/cyber.bmp",
 			"timeBetweenFidgets" : 1
 		},
-        "hasDoubleWeek": true,
+		"hasDoubleWeek" : true,
 		"growth" : 8,
 		"hitPoints" : 16,
 		"level" : 2,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/CHATTACK.wav",
 			"defend" : "farriery/CHDEFEND.wav",
 			"killed" : "farriery/CHDIE.wav",
-			"move"   : "farriery/CHMOVE.wav",
-			"wince"  : "farriery/CHWINCE.wav"
+			"move" : "farriery/CHMOVE.wav",
+			"wince" : "farriery/CHWINCE.wav"
 		},
 		"speed" : 7,
-        "abilities":
-		{
-			"unlimitedRetaliation" :
-			{
+		"abilities" : {
+			"unlimitedRetaliation" : {
 				"type" : "UNLIMITED_RETALIATIONS"
 			},
-			"enemyDefenceReduction" : 
-			{ 
+			"enemyDefenceReduction" : {
 				"type" : "ENEMY_DEFENCE_REDUCTION",
 				"val" : 25
-            },
-			"extraAttack" :
-			{
-				"type": "ADDITIONAL_ATTACK",
+			},
+			"extraAttack" : {
+				"type" : "ADDITIONAL_ATTACK",
 				"val" : 1
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

@@ -1,35 +1,33 @@
 {
-	"falv7":
-	{
-		"name" :
-		{
+	"falv7" : {
+		"name" : {
 			"plural" : "Mechanical Dragons",
 			"singular" : "Mechanical Dragon"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 8,
-			 "min" : 4
+		"advMapAmount" : {
+			"max" : 8,
+			"min" : 4
 		},
 		"faction" : "farriery",
 		"aiValue" : 3683,
 		"attack" : 21,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1800,
 			"mercury" : 1
 		},
-		"damage" :
-		{
-		    "max" : 65,
+		"damage" : {
+			"max" : 65,
 			"min" : 35
 		},
 		"defense" : 21,
 		"fightValue" : 3001,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv7.DEF",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.23 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1.23
+			},
 			"map" : "farriery/map/lv7.def",
 			"iconSmall" : "farriery/iconsSmall/lv7.bmp",
 			"iconLarge" : "farriery/iconsBig/lv7.bmp",
@@ -39,79 +37,109 @@
 		"growth" : 1,
 		"hitPoints" : 160,
 		"level" : 7,
-		"upgrades":
-		[
+		"upgrades" : [
 			"falv7up"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/S210ATTK.wav",
 			"defend" : "farriery/S210DFND.wav",
 			"killed" : "farriery/S210KILL.wav",
-			"move"   : "farriery/S210MOVE.wav",
-			"wince"  : "farriery/S210WNCE.wav"
+			"move" : "farriery/S210MOVE.wav",
+			"wince" : "farriery/S210WNCE.wav"
 		},
 		"speed" : 8,
-		"abilities":
-		{
-			"dragon" : 
-			{
+		"abilities" : {
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"fireBreath" :
-			{
+			"fireBreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-            "nonliving" :
-			{
+			"nonliving" : {
 				"type" : "NON_LIVING"
 			},
-			"king1" :
-			{
+			"king1" : {
 				"type" : "KING",
 				"val" : 0,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"HPregenerate" :
-			{
+			"HPregenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 30
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

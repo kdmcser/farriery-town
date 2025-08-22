@@ -5,22 +5,41 @@
 	"contact" : "http://forum.vcmi.eu/index.php",
 	"version" : "2.1.3",
 	"modType" : "Town",
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.7.0"
 	},
-	"changelog" :
-	{
-		"2.1.3"   : [ "Update to vcmi-1.7 format" ],
-		"2.1.2"   : [ "kdmcser fixes" ],
-		"2.1.1"   : [ "Fix Grail not to produce gold" ],
-		"2.1.0"   : [ "Update to vcmi-1.6 format", "Added creature system experience by fog" ],
-		"2.0.5"   : [ "Updated russian translation" ],
-		"2.0.4"   : [ "Russian translation by Anton Sergeew" ],
-		"2.0.3"   : [ "Added Chinese translation, the creatures' stackExp and fixed the commander" ],
-		"2.0.2"   : [ "Adjusted Commanders stats" ],
-		"2.0.1"   : [ "Removed Spoiled land to independed mod" ],
-		"2.0.0"   : [ "Initial release" ]
+	"changelog" : {
+		"2.1.3" : [
+			"Update to vcmi-1.7 format"
+		],
+		"2.1.2" : [
+			"kdmcser fixes"
+		],
+		"2.1.1" : [
+			"Fix Grail not to produce gold"
+		],
+		"2.1.0" : [
+			"Update to vcmi-1.6 format",
+			"Added creature system experience by fog"
+		],
+		"2.0.5" : [
+			"Updated russian translation"
+		],
+		"2.0.4" : [
+			"Russian translation by Anton Sergeew"
+		],
+		"2.0.3" : [
+			"Added Chinese translation, the creatures' stackExp and fixed the commander"
+		],
+		"2.0.2" : [
+			"Adjusted Commanders stats"
+		],
+		"2.0.1" : [
+			"Removed Spoiled land to independed mod"
+		],
+		"2.0.0" : [
+			"Initial release"
+		]
 	},
 	"chinese" : {
 		"name" : "异星",
@@ -36,12 +55,10 @@
 			"translation/farriery/russian.json"
 		]
 	},
-	"depends" :
-	[
+	"depends" : [
 		"newtown-terrains.spoiledland"
 	],
-	"factions" :
-	[
+	"factions" : [
 		"config/farriery/town/buildings.json",
 		"config/farriery/town/faction.json",
 		"config/farriery/town/siege.json",
@@ -49,8 +66,7 @@
 		"config/farriery/town/structures.json",
 		"config/farriery/town/puzzle.json"
 	],
-	"creatures" :
-	[
+	"creatures" : [
 		"config/farriery/creatures/lv1.json",
 		"config/farriery/creatures/lv1up.json",
 		"config/farriery/creatures/lv2.json",
@@ -69,18 +85,14 @@
 		"config/farriery/creatures/AcidDragon.json",
 		"config/farriery/creatures/Mortira.json"
 	],
-	"heroClasses" :
-	[
+	"heroClasses" : [
 		"config/farriery/heroClasses/Engineer.json",
 		"config/farriery/heroClasses/Technik.json"
-
 	],
-	"artifacts":
-	[
+	"artifacts" : [
 		"config/farriery/artifacts/MortiraArt.json"
 	],
-	"heroes" :
-	[
+	"heroes" : [
 		"config/farriery/heroes/steraks.json",
 		"config/farriery/heroes/Horna.json",
 		"config/farriery/heroes/seprinteer.json",
@@ -99,13 +111,11 @@
 		"config/farriery/heroes/karen.json",
 		"config/farriery/heroes/resurrecta.json"
 	],
-	"objects" :
-	[
+	"objects" : [
 		"config/farriery/dwellings",
 		"config/farriery/boats.json"
 	],
-	"spells" :
-	[
+	"spells" : [
 		"config/farriery/moat.json"
 	]
 }

@@ -1,40 +1,44 @@
 {
-	"leane" : 
-	{
+	"leane" : {
 		"class" : "technik",
 		"female" : false,
-                "texts" :
-		{
+		"texts" : {
 			"name" : "Leane",
 			"biography" : "N/A",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Hero can cast the Stone Skin spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Stone skin",
 				"name" : "Stone Skin"
 			}
 		},
-		"images" :
-		{
-			
+		"images" : {
 			"specialtySmall" : "farriery/heroes/leane/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/leane/spec-large.bmp",
 			"large" : "farriery/heroes/leane/portrait-large.bmp",
 			"small" : "farriery/heroes/leane/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"stoneSkin"
 		],
-		"army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"

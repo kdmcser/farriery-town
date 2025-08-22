@@ -1,44 +1,40 @@
 {
-	"falv1up":
-	{
-		"name" :
-		{
+	"falv1up" : {
+		"name" : {
 			"plural" : "Foot Soldiers",
 			"singular" : "Foot Soldier"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 20
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 20
 		},
 		"faction" : "farriery",
 		"aiValue" : 177,
 		"fightValue" : 150,
 		"attack" : 6,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 90
 		},
-		"damage" :
-		{
-			 "max" : 3,
-			 "min" : 2
+		"damage" : {
+			"max" : 3,
+			"min" : 2
 		},
 		"defense" : 6,
 		"horde" : 6,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv1up.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "farriery/map/lv1up.def",
 			"iconSmall" : "farriery/iconsSmall/lv1up.bmp",
 			"iconLarge" : "farriery/iconsBig/lv1up.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "farriery/battle/projectile/SHOT197.DEF",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 34,
 					"upperY" : -96,
 					"middleX" : 50,
@@ -47,84 +43,170 @@
 					"lowerY" : 0
 				},
 				"attackClimaxFrame" : 4,
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-
 		},
 		"growth" : 15,
 		"hitPoints" : 10,
-        "level" : 1,
+		"level" : 1,
 		"shots" : 24,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/gruntATTK.wav",
 			"defend" : "farriery/gruntDFND.wav",
 			"killed" : "farriery/gruntKILL.wav",
 			"move" : "farriery/gruntMOVE.wav",
 			"wince" : "farriery/gruntWNCE.wav",
-            "shoot" : "farriery/gruntSHOT1.wav"
+			"shoot" : "farriery/gruntSHOT1.wav"
 		},
 		"speed" : 9,
-		"abilities" :
-		{
-		    "shooter" :
-			{
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
-            }
+			}
 		},
-		"stackExperience" : [ {
-				"bonus" :
-				{
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "ENEMY_DEFENCE_REDUCTION"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
-			{ "bonus" : { "type" : "SHOTS" }, "values" : [ 1, 1, 2, 2, 2, 3, 3, 3, 4, 4 ] } ]	
+			{
+				"bonus" : {
+					"type" : "SHOTS"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
+			}
+		]
 	}
 }

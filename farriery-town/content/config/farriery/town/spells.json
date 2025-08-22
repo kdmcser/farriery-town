@@ -1,9 +1,7 @@
 {
-	"farriery" :
-	{
-		"town" :
-		{
-			"guildSpells" :{
+	"farriery" : {
+		"town" : {
+			"guildSpells" : {
 				"airShield" : 2,
 				"antiMagic" : 10,
 				"berserk" : 5,
@@ -58,17 +56,16 @@
 				"visions" : 2,
 				"waterWalk" : 10,
 				"weakness" : 8,
-				"airElemental"   : 10,
-				"dimensionDoor"  : 10,
+				"airElemental" : 10,
+				"dimensionDoor" : 10,
 				"earthElemental" : 10,
-				"fireElemental"  : 10,
-				"fly"            : 10,
-				"implosion"      : 10,
-				"magicMirror"    : 10,
-				"sacrifice"      : 10,
+				"fireElemental" : 10,
+				"fly" : 10,
+				"implosion" : 10,
+				"magicMirror" : 10,
+				"sacrifice" : 10,
 				"waterElemental" : 10
 			}
 		}
 	}
 }
-

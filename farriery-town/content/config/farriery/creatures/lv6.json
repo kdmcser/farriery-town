@@ -1,13 +1,10 @@
 {
-	"falv6":
-	{
-		"name" :
-		{
+	"falv6" : {
+		"name" : {
 			"plural" : "Tanks",
 			"singular" : "Tank"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 10,
 			"min" : 4
 		},
@@ -18,19 +15,20 @@
 		"defense" : 15,
 		"hitPoints" : 130,
 		"speed" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 1050
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 25,
 			"min" : 20
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv6.DEF",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "farriery/map/lv6",
 			"iconSmall" : "farriery/iconsSmall/lv6.bmp",
 			"iconLarge" : "farriery/iconsBig/lv6.bmp",
@@ -39,79 +37,140 @@
 		"doubleWide" : true,
 		"growth" : 2,
 		"level" : 6,
-		"upgrades":
-		[
+		"upgrades" : [
 			"falv6up"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/tankATTK.wav",
 			"defend" : "farriery/CBRGDFND.wav",
 			"killed" : "farriery/tankKILL.wav",
 			"move" : "farriery/tankMOVE.wav",
 			"wince" : "farriery/tankWNCE.wav"
 		},
-		"abilities" :
-		{
-			"fearless" :
-			{
+		"abilities" : {
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 			},
-            "multiAttack" : 
-			{
+			"multiAttack" : {
 				"type" : "BLOCKS_RETALIATION"
-
 			},
-            "panzer" : 
-			{
+			"panzer" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "landMine",
 				"addInfo" : 0
 			}
 		},
-		"stackExperience" : [ {
-				"bonus" :
-				{
+		"stackExperience" : [
+			{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 8, 9 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					8,
+					9
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 2, 3, 4, 5, 5, 6, 7, 8 ]
+				"values" : [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
-			{ "bonus" : { "type" : "STACKS_SPEED" }, "values" : [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ] } ]
+			{
+				"bonus" : {
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			}
+		]
 	}
 }

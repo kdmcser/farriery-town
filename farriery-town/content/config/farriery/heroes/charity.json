@@ -1,36 +1,41 @@
 {
-	"charity" :
-	{
+	"charity" : {
 		"class" : "engineer",
 		"female" : true,
 
-		
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Charity",
 			"biography" : "Charity was a great necromancer, but after the devils' attack on Antadari, her guild was completely destroyed. She wandered around the world until King Castore asked her to join his army.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Increases the Attack and Defence of any Mech Fighters or Mech Warriors for each level attained after 6th level.",
 				"tooltip" : "Creature Bonus: Mech Fighters",
 				"name" : "Mech Fighters"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "farriery/heroes/charity/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/charity/spec-large.bmp",
 			"large" : "farriery/heroes/charity/portrait-large.bmp",
 			"small" : "farriery/heroes/charity/portrait-small.bmp"
 		},
-		"army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "advanced",
 				"skill" : "scouting"

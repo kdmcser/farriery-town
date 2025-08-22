@@ -3,89 +3,152 @@
 		"types" : {
 			"faBarracks" : {
 				"name" : "Barracks",
-				"creatures" : [[ "falv1" ]],
+				"creatures" : [
+					[
+						"falv1"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-1.def",
-						"mask" : [ "00V", "0BB", "VAB" ]
+						"mask" : [
+							"00V",
+							"0BB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"faSlaughterhouse" : {
 				"name" : "Slaughterhouse",
-				"creatures" : [[ "falv2" ]],
+				"creatures" : [
+					[
+						"falv2"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-2.def",
-						"mask" : [ "VVV", "VVB", "VAB" ]
+						"mask" : [
+							"VVV",
+							"VVB",
+							"VAB"
+						]
 					}
 				}
 			},
 			"faFireBasin" : {
 				"name" : "Fire Basin",
-				"creatures" : [[ "falv3" ]],
+				"creatures" : [
+					[
+						"falv3"
+					]
+				],
 				"templates" : {
-					"default" : {	
+					"default" : {
 						"animation" : "farriery/dwellings/dwelling-3.def",
-						"mask" : [ "VVV", "VVV", "VBA" ]
+						"mask" : [
+							"VVV",
+							"VVV",
+							"VBA"
+						]
 					}
 				}
 			},
 			"faStingersPost" : {
 				"name" : "Stingers Post",
-				"creatures" : [[ "falv4" ]],
+				"creatures" : [
+					[
+						"falv4"
+					]
+				],
 				"templates" : {
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-4.def",
-						"mask" : [ "VBBBV", "VBBBB", "VVBAV" ]
+						"mask" : [
+							"VBBBV",
+							"VBBBB",
+							"VVBAV"
+						]
 					}
 				}
 			},
 			"faAirstrip" : {
 				"name" : "Airstrip",
-				"creatures" : [[ "falv5" ]],
+				"creatures" : [
+					[
+						"falv5"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-5.def",
-						"mask" : [ "VBB", "BAV" ]
+						"mask" : [
+							"VBB",
+							"BAV"
+						]
 					}
 				}
 			},
 			"faAncientRefinery" : {
 				"name" : "Ancient Refinery",
-				"creatures" : [[ "falv6" ]],
+				"creatures" : [
+					[
+						"falv6"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-6.def",
-						"mask" : [ "VVV", "VBB", "ABV" ]
+						"mask" : [
+							"VVV",
+							"VBB",
+							"ABV"
+						]
 					}
 				}
 			},
 			"faGarage" : {
 				"name" : "Detached Garage",
-				"creatures" : [[ "falv7" ]],
+				"creatures" : [
+					[
+						"falv7"
+					]
+				],
 				"guards" : true,
 				"templates" : {
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-7.def",
-				        "mask" : [ "VVVV", "VVBV", "VABB" ]
+						"mask" : [
+							"VVVV",
+							"VVBV",
+							"VABB"
+						]
 					}
 				}
 			},
-			
+
 			"faRancidCave" : {
 				"name" : "Rancid Cave",
-				"creatures" : [[ "faAcidDragon" ]],
+				"creatures" : [
+					[
+						"faAcidDragon"
+					]
+				],
 				"guards" : true,
-                 "templates" : {
+				"templates" : {
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-8.def",
-						"mask" : [ "0VV", "VBB", "VAB" ]
+						"mask" : [
+							"0VV",
+							"VBB",
+							"VAB"
+						]
 					}
 				}
 			}
-		}		
+		}
 	}
 }

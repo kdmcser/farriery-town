@@ -1,34 +1,32 @@
 {
-	"falv2":
-	{
-		"name" :
-		{
+	"falv2" : {
+		"name" : {
 			"plural" : "Cyber Deads",
-		        "singular" : "Cyber Dead"
+			"singular" : "Cyber Dead"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 30,
-			 "min" : 16
+		"advMapAmount" : {
+			"max" : 30,
+			"min" : 16
 		},
 		"faction" : "farriery",
 		"aiValue" : 211,
 		"fightValue" : 216,
 		"attack" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 145
 		},
-		"damage" :
-		{
-			 "max" : 4,
-			 "min" : 2
+		"damage" : {
+			"max" : 4,
+			"min" : 2
 		},
 		"defense" : 5,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv2.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "farriery/map/lv2.def",
 			"iconSmall" : "farriery/iconsSmall/lv2.bmp",
 			"iconLarge" : "farriery/iconsBig/lv2.bmp",
@@ -37,73 +35,134 @@
 		"growth" : 8,
 		"hitPoints" : 20,
 		"level" : 2,
-		"upgrades" :
-		[
+		"upgrades" : [
 			"falv2up"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/S199ATTK.wav",
 			"defend" : "farriery/S199DFND.wav",
 			"killed" : "farriery/S199KILL.wav",
-			"move"   : "farriery/S199MOVE.wav",
-			"wince"  : "farriery/S199WNCE.wav"
+			"move" : "farriery/S199MOVE.wav",
+			"wince" : "farriery/S199WNCE.wav"
 		},
 		"speed" : 6,
-		"abilities" :
-		{
-			"nonliving" :
-			{	
+		"abilities" : {
+			"nonliving" : {
 				"type" : "NON_LIVING"
-			},    
-			"deathCloundImmunity" :
-			{
+			},
+			"deathCloundImmunity" : {
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "deathCloud"
 			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
+				"values" : [
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
-			{ "bonus" : { "type" : "CASTS" }, "values" : [ 1, 1, 1, 1, 2, 2, 2, 3, 3, 3 ] }
+			{
+				"bonus" : {
+					"type" : "CASTS"
+				},
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					3,
+					3,
+					3
+				]
+			}
 		]
 	}
 }

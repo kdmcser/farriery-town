@@ -1,38 +1,43 @@
 {
-	"kastore" : 
-	{
+	"kastore" : {
 		"class" : "engineer",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Kastore",
 			"biography" : "Kastore does not want to reveal his origins to his subjects. What is known is that he is a powerful elf-wizard who knows many secrets of the Ancients. Before the creation of the Celestial Forges, he was the king of Dejia. He plans to conquer the world with the help of Ancient weapons and will stop at nothing to achieve his goal.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Casts Chain Lightning with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Chain Lightning",
 				"name" : "Chain Lightning"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "farriery/heroes/kastore/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/kastore/spec-large.bmp",
 			"large" : "farriery/heroes/kastore/portrait-large.bmp",
 			"small" : "farriery/heroes/kastore/portrait-small.bmp"
 		},
-		"spellbook" :
-		[
-			"chainLightning"		
-                ],
-        "army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+		"spellbook" : [
+			"chainLightning"
 		],
-		"skills" :
-		[
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "archery"

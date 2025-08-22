@@ -1,13 +1,10 @@
 {
-	"falv4up":
-	{
-		"name" :
-		{
+	"falv4up" : {
+		"name" : {
 			"plural" : "Bruisers",
 			"singular" : "Bruiser"
 		},
-		"advMapAmount" :
-		{
+		"advMapAmount" : {
 			"max" : 14,
 			"min" : 8
 		},
@@ -20,29 +17,28 @@
 		"hitPoints" : 70,
 		"shots" : 12,
 		"speed" : 6,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 450
 		},
-		"damage" :
-		{
+		"damage" : {
 			"max" : 14,
 			"min" : 10
 		},
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv4up.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "farriery/map/lv4up.def",
 			"iconSmall" : "farriery/iconsSmall/lv4up.bmp",
 			"iconLarge" : "farriery/iconsBig/lv4up.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "farriery/battle/projectile/shot207.DEF",
-			    "attackClimaxFrame" : 4,
-				"offset" :
-				{
+				"attackClimaxFrame" : 4,
+				"offset" : {
 					"upperX" : 25,
 					"upperY" : -86,
 					"middleX" : 47,
@@ -50,102 +46,214 @@
 					"lowerX" : 25,
 					"lowerY" : -38
 				},
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 		"level" : 4,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/stingerATTK.wav",
 			"defend" : "farriery/stingerDFND.wav",
 			"killed" : "farriery/stingerKILL.wav",
 			"move" : "farriery/stingerMOVE.wav",
 			"wince" : "farriery/stingerWNCE.wav",
- 			"shoot" : "farriery/stingerSHOT.wav"     
+			"shoot" : "farriery/stingerSHOT.wav"
 		},
-		"abilities" :
-		{
-		"canShoot" :
-			{
+		"abilities" : {
+			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
 			},
-			"enchanted" : 
-			{
+			"enchanted" : {
 				"type" : "ENCHANTED",
 				"subtype" : "slayer",
 				"val" : 2
-              }
+			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
-			},	
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					5,
+					6,
+					6,
+					7,
+					8
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
+				"values" : [
+					1,
+					2,
+					2,
+					3,
+					4,
+					4,
+					5,
+					6,
+					7,
+					8
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 4 ]
+				"values" : [
+					0,
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					4
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
 			{
-				"bonus" : { "type" : "SPELL_AFTER_ATTACK",
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "weakness",
-					"addInfo" : [1, 1, 0 ] },
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+					"addInfo" : [
+						1,
+						1,
+						0
+					]
+				},
+				"values" : [
+					7,
+					14,
+					21,
+					28,
+					35,
+					42,
+					49,
+					56,
+					63,
+					70
+				]
 			},
 			{
-				"bonus" : { "type" : "SPELL_AFTER_ATTACK",
+				"bonus" : {
+					"type" : "SPELL_AFTER_ATTACK",
 					"subtype" : "disruptingRay",
-					"addInfo" : [1, 1, 1] },
-				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
+					"addInfo" : [
+						1,
+						1,
+						1
+					]
+				},
+				"values" : [
+					7,
+					14,
+					21,
+					28,
+					35,
+					42,
+					49,
+					56,
+					63,
+					70
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_WALL_PENALTY"
 				},
-				"values" : [ false, false, false, false, false, false, true, true, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true,
+					true,
+					true
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "NO_DISTANCE_PENALTY"
 				},
-				"values" : [ false, false, false, false, false, false, false, false, true, true ]
+				"values" : [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					false,
+					true,
+					true
+				]
 			}
 		]
 	}

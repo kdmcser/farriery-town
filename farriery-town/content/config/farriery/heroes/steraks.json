@@ -1,38 +1,43 @@
 {
-	"steraks" : 
-	{
+	"steraks" : {
 		"class" : "engineer",
 		"female" : false,
-"texts" :
-		{
+		"texts" : {
 			"name" : "Steraks",
 			"biography" : "Steraks mad scientist, who became the undead from their experiments, but continuously works.",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Can upgrade Walking Deads and Zombies in Cyber Deads and Cyber Zombies.",
 				"name" : "Special Upgrades",
 				"tooltip" : "Free upgrades Walking Deads"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "farriery/heroes/steraks/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/steraks/spec-large.bmp",
 			"large" : "farriery/heroes/steraks/portrait-large.bmp",
 			"small" : "farriery/heroes/steraks/portrait-small.bmp"
 		},
-               "spellbook" :
-		[
-			"teleport"		
-                ],
-        "army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+		"spellbook" : [
+			"teleport"
 		],
-		"skills" :
-		[
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -42,15 +47,19 @@
 				"skill" : "logistics"
 			}
 		],
-		
+
 		"specialty" : {
 			"base" : {
 				"addInfo" : "falv2",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"faCyberDead" : { "subtype" : "walkingDead" },
-				"faCyberZombie" : { "subtype" : "zombieLord" }
+				"faCyberDead" : {
+					"subtype" : "walkingDead"
+				},
+				"faCyberZombie" : {
+					"subtype" : "zombieLord"
+				}
 			}
 		}
 	}

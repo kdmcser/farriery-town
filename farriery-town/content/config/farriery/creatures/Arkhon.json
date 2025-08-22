@@ -1,38 +1,35 @@
 {
-	"faArkhon":
-	{
-		"name" :
-		{
+	"faArkhon" : {
+		"name" : {
 			"plural" : "Arkhons",
 			"singular" : "Arkhon"
 		},
 		"faction" : "farriery",
 		"aiValue" : 156,
 		"attack" : 5,
-		"damage" :
-		{
-			 "max" : 12,
-			 "min" : 6
+		"damage" : {
+			"max" : 12,
+			"min" : 6
 		},
-		"cost" :
-		{
-			 "gold" : 1500
-		},		
+		"cost" : {
+			"gold" : 1500
+		},
 		"defense" : 5,
 		"fightValue" : 130,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv0.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "farriery/map/lv0.def",
 			"iconSmall" : "farriery/iconsSmall/lv0.bmp",
 			"iconLarge" : "farriery/iconsBig/lv0.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "farriery/battle/projectile/arkhShoot.DEF",
-				"offset" :
-				{
+				"offset" : {
 					"lowerX" : 130,
 					"lowerY" : -44,
 					"middleX" : 124,
@@ -41,59 +38,63 @@
 					"upperY" : -68
 				},
 				"attackClimaxFrame" : 6,
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
 		},
 
 		"growth" : 9,
 		"hitPoints" : 40,
-        "level" : 0,
+		"level" : 0,
 		"shots" : 24,
 		"doubleWide" : false,
 		"special" : true,
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/ARKATTK.wav",
 			"defend" : "farriery/ARKDFND.wav",
 			"killed" : "farriery/ARKKILL.wav",
-			"move"   : "farriery/ARKMOVE.wav",
-			"wince"  : "farriery/ARKWNCE.wav",
-                        "shoot"  : "farriery/ARKSHOT.wav"
+			"move" : "farriery/ARKMOVE.wav",
+			"wince" : "farriery/ARKWNCE.wav",
+			"shoot" : "farriery/ARKSHOT.wav"
 		},
 		"speed" : 4,
-		"abilities" :
-		{
-
-			"magicResistance" :
-			{
+		"abilities" : {
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "any",
 				"val" : 5
 			},
-			"castsAmount" :
-			{
+			"castsAmount" : {
 				"type" : "CASTS",
 				"val" : 1
 			},
-			"enchant" :
-			{
+			"enchant" : {
 				"type" : "CREATURE_ENCHANT_POWER",
 				"val" : 1
 			},
-			"spellpower" :
-			{
+			"spellpower" : {
 				"type" : "CREATURE_SPELL_POWER",
 				"val" : 100
 			},
-			"canCast" :
-			{
+			"canCast" : {
 				"type" : "SPELLCASTER",
 				"subtype" : "haste",
 				"val" : 3
-        	},
-			"noMind":
-            {
-                "type": "MIND_IMMUNITY"
+			},
+			"noMind" : {
+				"type" : "MIND_IMMUNITY"
 			}
 		}
 	}

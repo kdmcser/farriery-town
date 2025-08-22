@@ -1,44 +1,40 @@
 {
-	"falv1":
-	{
-		"name" :
-		{
+	"falv1" : {
+		"name" : {
 			"plural" : "Grunt Soldiers",
 			"singular" : "Grunt Soldier"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 50,
-			 "min" : 20
+		"advMapAmount" : {
+			"max" : 50,
+			"min" : 20
 		},
 		"faction" : "farriery",
 		"aiValue" : 135,
 		"fightValue" : 120,
 		"attack" : 4,
-        "cost" :
-		{
+		"cost" : {
 			"gold" : 40
 		},
-		"damage" :
-		{
-			 "max" : 3,
-			 "min" : 1
+		"damage" : {
+			"max" : 3,
+			"min" : 1
 		},
 		"defense" : 4,
 		"horde" : 6,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv1.def",
-			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
 			"map" : "farriery/map/lv1.def",
 			"iconSmall" : "farriery/iconsSmall/lv1.bmp",
 			"iconLarge" : "farriery/iconsBig/lv1.bmp",
 			"timeBetweenFidgets" : 1,
-			"missile" :
-			{
+			"missile" : {
 				"projectile" : "farriery/battle/projectile/SHOT197.DEF",
-				"offset" :
-				{
+				"offset" : {
 					"upperX" : 34,
 					"upperY" : -96,
 					"middleX" : 50,
@@ -47,85 +43,160 @@
 					"lowerY" : 0
 				},
 				"attackClimaxFrame" : 4,
-				"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				]
 			}
-
 		},
 		"growth" : 15,
 		"hitPoints" : 8,
-        "level" : 1,
+		"level" : 1,
 		"shots" : 12,
-		"upgrades":
-		[
+		"upgrades" : [
 			"falv1up"
 		],
-		"sound" :
-		{
+		"sound" : {
 			"attack" : "farriery/gruntATTK.wav",
 			"defend" : "farriery/gruntDFND.wav",
 			"killed" : "farriery/gruntKILL.wav",
 			"move" : "farriery/gruntMOVE.wav",
 			"wince" : "farriery/gruntWNCE.wav",
-            "shoot" : "farriery/gruntSHOT1.wav"
+			"shoot" : "farriery/gruntSHOT1.wav"
 		},
 		"speed" : 4,
-		"abilities" :
-		{
-			"shooter" :
-			{
+		"abilities" : {
+			"shooter" : {
 				"type" : "SHOOTER"
 			},
-			"noMeleePenalty" :
-			{
+			"noMeleePenalty" : {
 				"type" : "NO_MELEE_PENALTY"
-         }
+			}
 		},
 		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
-			},	
+				"values" : [
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL",
 					"valueType" : "BASE_NUMBER"
 				},
-				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
-			},	
+				"values" : [
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2,
+					3,
+					3
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMin"
 				},
-				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageMax"
 				},
-				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+				"values" : [
+					0,
+					0,
+					1,
+					1,
+					1,
+					1,
+					2,
+					2,
+					2,
+					2
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			},
-			{ "bonus" : { "type" : "SHOTS" }, "values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ] },
 			{
-				"bonus" : { "type" : "NO_DISTANCE_PENALTY" },
+				"bonus" : {
+					"type" : "SHOTS"
+				},
+				"values" : [
+					1,
+					1,
+					2,
+					2,
+					3,
+					3,
+					4,
+					4,
+					5,
+					5
+				]
+			},
+			{
+				"bonus" : {
+					"type" : "NO_DISTANCE_PENALTY"
+				},
 				"values" : [
 					false,
 					false,
@@ -142,4 +213,3 @@
 		]
 	}
 }
-

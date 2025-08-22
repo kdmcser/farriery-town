@@ -1,39 +1,44 @@
 {
-	"minore" : 
-	{
+	"minore" : {
 		"class" : "technik",
 		"female" : false,
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Minore",
 			"biography" : "Minoure has always liked to play with the minds of her enemies, which is why she was always able to get out of even the worst situations. Banished from her hometown of Bracada for practicing forbidden magic, she found a place at the side of Castor, who appreciated her unusual abilities and appointed her the commander of his army.",
-			"specialty" : 
-			{
+			"specialty" : {
 				"description" : "Hero can cast the Berserk spell with increased effectiveness",
 				"tooltip" : "Spell Bonus: Berserk",
 				"name" : "Berserk"
 			}
 		},
-		"images" :
-		{
+		"images" : {
 			"specialtySmall" : "farriery/heroes/minore/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/minore/spec-large.bmp",
 			"large" : "farriery/heroes/minore/portrait-large.bmp",
 			"small" : "farriery/heroes/minore/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"berserk"
 		],
-		"army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" :
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -55,4 +60,3 @@
 		}
 	}
 }
-

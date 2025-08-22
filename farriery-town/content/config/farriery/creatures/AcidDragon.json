@@ -1,41 +1,34 @@
 {
-	"faAcidDragon":
-	{
-		"name" :
-		{
+	"faAcidDragon" : {
+		"name" : {
 			"plural" : "Acid Dragons",
 			"singular" : "Acid Dragon"
 		},
-		"advMapAmount" :
-		{
-			 "max" : 4,
-			 "min" : 2
+		"advMapAmount" : {
+			"max" : 4,
+			"min" : 2
 		},
 		"faction" : "farriery",
 		"aiValue" : 18029,
 		"special" : true,
 		"attack" : 30,
-		"cost" :
-		{
+		"cost" : {
 			"gold" : 15000,
 			"mercury" : 10
 		},
-		"damage" :
-		{
-			 "max" : 80,
-			 "min" : 70
+		"damage" : {
+			"max" : 80,
+			"min" : 70
 		},
 		"defense" : 30,
 		"fightValue" : 12771,
-		"graphics" :
-		{
+		"graphics" : {
 			"animation" : "farriery/battle/lv8.DEF",
 			"map" : "farriery/map/lv8.def",
 			"iconSmall" : "farriery/iconsSmall/lv8.bmp",
 			"iconLarge" : "farriery/iconsBig/lv8.bmp",
 			"timeBetweenFidgets" : 1,
-			"animationTime" :
-			{
+			"animationTime" : {
 				"walk" : 1,
 				"idle" : 10,
 				"attack" : 1
@@ -45,88 +38,117 @@
 		"growth" : 1,
 		"hitPoints" : 850,
 		"level" : 10,
-		"sound" :
-		{
-			"attack": "RUSTATTK.wav",
-			"defend": "RUSTDFND.wav",
-			"killed": "RUSTKILL.wav",
-			"move": "RUSTMOVE.wav",
-			"wince": "RUSTWNCE.wav"
+		"sound" : {
+			"attack" : "RUSTATTK.wav",
+			"defend" : "RUSTDFND.wav",
+			"killed" : "RUSTKILL.wav",
+			"move" : "RUSTMOVE.wav",
+			"wince" : "RUSTWNCE.wav"
 		},
 		"speed" : 17,
-		"abilities" :
-		{
-			"dragon" :
-			{
+		"abilities" : {
+			"dragon" : {
 				"type" : "DRAGON_NATURE"
 			},
-			"canFly" :
-			{
+			"canFly" : {
 				"type" : "FLYING"
 			},
-			"acidBreath" :
-			{
+			"acidBreath" : {
 				"type" : "ACID_BREATH",
 				"val" : 25,
 				"addInfo" : 20
 			},
-			"spellImmunity" :
-			{
+			"spellImmunity" : {
 				"type" : "LEVEL_SPELL_IMMUNITY",
 				"val" : 3
 			},
-			"reduceDefence" :
-			{
+			"reduceDefence" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "acidBreath",
 				"val" : 50
 			},
-			"twohexattackbreath" :
-			{
+			"twohexattackbreath" : {
 				"type" : "TWO_HEX_ATTACK_BREATH"
 			},
-			"fearless" :
-			{
+			"fearless" : {
 				"type" : "FEARFUL",
 				"valueType" : "INDEPENDENT_MIN",
 				"description" : "PLACEHOLDER",
 				"val" : 0
 			}
 		},
-		"stackExperience" :
- 
-		[
+		"stackExperience" : [
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "attack"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
-			},	
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
+			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "PRIMARY_SKILL",
 					"subtype" : "defence"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"type" : "CREATURE_DAMAGE",
 					"subtype" : "creatureDamageBoth"
 				},
-				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+				"values" : [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10
+				]
 			},
 			{
-				"bonus" :
-				{
+				"bonus" : {
 					"valueType" : "PERCENT_TO_BASE",
 					"type" : "STACK_HEALTH"
 				},
-				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]
+				"values" : [
+					5,
+					10,
+					15,
+					20,
+					25,
+					30,
+					35,
+					40,
+					45,
+					50
+				]
 			}
 		]
 	}

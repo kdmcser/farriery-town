@@ -1,42 +1,45 @@
 {
-	"cistrict" :
-	{
+	"cistrict" : {
 		"class" : "technik",
 		"female" : true,
 
-
-		"texts" :
-		{
+		"texts" : {
 			"name" : "Cistrict",
 			"biography" : "N/A",
-			"specialty" :
-			{
+			"specialty" : {
 				"description" : "Receives a 5% per level bonus to Sorcery skill.",
 				"tooltip" : "Secondary Skill Bonus: Sorcery",
 				"name" : "Sorcery"
 			}
 		},
-		"images" :
-		{
-			
+		"images" : {
 			"specialtySmall" : "farriery/heroes/cistrict/spec-small.bmp",
 			"specialtyLarge" : "farriery/heroes/cistrict/spec-large.bmp",
 			"large" : "farriery/heroes/cistrict/portrait-large.bmp",
 			"small" : "farriery/heroes/cistrict/portrait-small.bmp"
 		},
 
-		"spellbook" :
-		[
+		"spellbook" : [
 			"dispel"
 		],
-        "army" :
-		[
-			{ "creature" : "falv1", "min" : 10, "max" : 15 },
-			{ "creature" : "falv2",    "min" : 6, "max" : 9 },
-			{ "creature" : "falv3",         "min" : 4, "max" : 6}
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
 		],
-		"skills" : 
-		[
+		"skills" : [
 			{
 				"level" : "basic",
 				"skill" : "wisdom"
@@ -46,8 +49,8 @@
 				"skill" : "sorcery"
 			}
 		],
-		"specialty": {
-			"secondary": "sorcery"
+		"specialty" : {
+			"secondary" : "sorcery"
 		}
 	}
 }
