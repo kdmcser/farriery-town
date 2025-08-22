@@ -7,7 +7,9 @@
         "value" : 5000,
 		"graphics": {
 			"image" : "farriery/iconsSmall/artifacts/mortira.bmp",
-			"map" : "farriery/map/artifacts/blank.def"
+			"map" : "farriery/map/artifacts/blank.def",
+			"scenarioBonus" : "farriery/icons/bonusBlank.png"
+			
 		},
 		"text" : {
 			"name": "Mortira",

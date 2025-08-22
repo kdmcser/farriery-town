@@ -5,8 +5,8 @@
 			"singular": "Jump Trooper"
 		},
 		"advMapAmount": {
-			"max": 10,
-			"min": 6
+			"max": 12,
+			"min": 8
 		},
 		"faction": "farriery",
 		"aiValue": 1262,
@@ -54,14 +54,14 @@
 			},
 			"spellimmunityslow": {
 				"type": "SPELL_IMMUNITY",
-				"subtype": "spell.slow"
+				"subtype": "slow"
 			}
 		},
 		"stackExperience": [
 			{
 				"bonus": {
 					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.attack"
+					"subtype": "attack"
 				},
 				"values": [
 					1,
@@ -79,7 +79,7 @@
 			{
 				"bonus": {
 					"type": "PRIMARY_SKILL",
-					"subtype": "primarySkill.defence"
+					"subtype": "defence"
 				},
 				"values": [
 					1,

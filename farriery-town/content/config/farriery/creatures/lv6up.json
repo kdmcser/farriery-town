@@ -51,7 +51,10 @@
 		{
 			"fearless" :
 			{
-				"type" : "FEARLESS"
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
 			},
             "multiAttack" : 
 			{
@@ -61,21 +64,20 @@
             "panzer" : 
 			{
 				"type" : "SPELL_IMMUNITY",
-				"subtype" : "spell.landMine",
+				"subtype" : "landMine",
 				"addInfo" : 0
 
 			},
 			 "spellAfterAttack" :
 			{
                 "type": "SPELL_AFTER_ATTACK",
-				"subtype": "spell.chainLightning",
-				"val" : 20,
-				"addInfo": 0
+				"subtype": "chainLightning",
+				"val" : 20
 			},
 			"lightningBoltPOwer" :
 			{
 				"type": "SPECIFIC_SPELL_POWER",
-				"subtype":"spell.chainLightning",
+				"subtype":"chainLightning",
 				"val" : 1
 			},
 		},
@@ -83,7 +85,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 3, 4, 4, 5, 6, 7, 8, 9 ]
 			},	
@@ -91,7 +93,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 7, 8, 9 ]
 			},

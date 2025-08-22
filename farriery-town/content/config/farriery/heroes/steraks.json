@@ -45,12 +45,12 @@
 		
 		"specialty" : {
 			"base" : {
-				"addInfo" : "creature.falv2",
+				"addInfo" : "falv2",
 				"type" : "SPECIAL_UPGRADE"
 			},
 			"bonuses" : {
-				"faCyberDead" : { "subtype" : "creature.walkingDead" },
-				"faCyberZombie" : { "subtype" : "creature.zombieLord" }
+				"faCyberDead" : { "subtype" : "walkingDead" },
+				"faCyberZombie" : { "subtype" : "zombieLord" }
 			}
 		}
 	}

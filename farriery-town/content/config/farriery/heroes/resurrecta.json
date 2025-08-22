@@ -47,7 +47,7 @@
 			"bonuses" : {
 				"resurrection" : {
 					"type" : "SPECIAL_SPELL_LEV",
-					"subtype" : "spell.resurrection",
+					"subtype" : "resurrection",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3
 				}

@@ -11,7 +11,7 @@
 			"biography" : "Charity was a great necromancer, but after the devils' attack on Antadari, her guild was completely destroyed. She wandered around the world until King Castore asked her to join his army.",
 			"specialty" :
 			{
-				"description" : "{Mech Fighters and Mech Warriors}\r\n\r\nIncreases the Attack and Defence of any Mech Fighters or Mech Warriors for each level attained after 6th level.",
+				"description" : "Increases the Attack and Defence of any Mech Fighters or Mech Warriors for each level attained after 6th level.",
 				"tooltip" : "Creature Bonus: Mech Fighters",
 				"name" : "Mech Fighters"
 			}

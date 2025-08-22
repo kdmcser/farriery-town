@@ -9,7 +9,7 @@
 			"biography" : "Little is known about King Deyja's right hand - it is rumored that his face was deformed by the technology of the Celestial Forge. However, no one can question his masterful combat skills",
 			"specialty" :
 			{
-				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill.",
+				"description" : "Receives a 5% per level bonus to Offence skill.",
 				"tooltip" : "Primary Skill Bonus: Offence",
 				"name" : "Offence"
 			}
@@ -38,17 +38,8 @@
 				"skill" : "offence"
 			}
 		],
-		"specialty" : {
-			"bonuses" : {
-				"offence" : {
-					"type" : "PERCENTAGE_DAMAGE_BOOST",
-					"subtype" : "damageTypeMelee",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
-				}
-			}
+		"specialty": {
+			"secondary": "offence"
 		}
 	}
 }

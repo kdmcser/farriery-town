@@ -40,17 +40,8 @@
 				"skill" : "pathfinding"
 			}
 		],
-		"specialty" : {
-			"bonuses" : {
-				"logistics" : {
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MOVEMENT",
-					"subtype" : "heroMovementLand",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE"
-				}
-			}
+		"specialty": {
+			"secondary": "logistics"
 		}
 	}
 }

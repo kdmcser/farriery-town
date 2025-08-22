@@ -76,7 +76,7 @@
 			"enchanted" : 
 			{
 				"type" : "ENCHANTED",
-				"subtype" : "spell.slayer",
+				"subtype" : "slayer",
 				"val" : 2
               }
 		},
@@ -85,7 +85,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.attack"
+					"subtype" : "attack"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 5, 6, 6, 7, 8 ]
 			},	
@@ -93,7 +93,7 @@
 				"bonus" :
 				{
 					"type" : "PRIMARY_SKILL",
-					"subtype" : "primarySkill.defence"
+					"subtype" : "defence"
 				},
 				"values" : [ 1, 2, 2, 3, 4, 4, 5, 6, 7, 8 ]
 			},
@@ -123,14 +123,14 @@
 			},
 			{
 				"bonus" : { "type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.weakness",
-					"addInfo" : 1000 },
+					"subtype" : "weakness",
+					"addInfo" : [1, 1, 0 ] },
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			},
 			{
 				"bonus" : { "type" : "SPELL_AFTER_ATTACK",
-					"subtype" : "spell.disruptingRay",
-					"addInfo" : 1000 },
+					"subtype" : "disruptingRay",
+					"addInfo" : [1, 1, 1] },
 				"values" : [ 7, 14, 21, 28, 35, 42, 49, 56, 63, 70 ]
 			},
 			{

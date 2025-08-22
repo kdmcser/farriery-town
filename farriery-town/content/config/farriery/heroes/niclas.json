@@ -10,7 +10,7 @@
 			"biography" : "N/A",
 			"specialty" :
 			{
-				"description" : "{Crystal + 1}\r\n\r\nIncreases kingdom's income by 1 crystal per day",
+				"description" : "Increases kingdom's income by 1 crystal per day",
 				"tooltip" : "+1 Crystal each day",
 				"name" : "+1 Crystals"
 			}
@@ -44,7 +44,7 @@
 			"bonuses" : {
 				"crystal" : {
 					"type" : "GENERATE_RESOURCE",
-					"subtype" : "resource.crystal",
+					"subtype" : "crystal",
 					"val" : 1
 				}
 			}
