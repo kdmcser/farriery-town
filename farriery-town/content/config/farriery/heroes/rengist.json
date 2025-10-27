@@ -34,10 +34,15 @@
 				"min" : 4
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "archery", "level": "basic" },
-			{ "skill" : "offence", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			},
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "falv4"

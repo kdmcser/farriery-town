@@ -35,10 +35,15 @@
 				"min" : 5
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "offence", "level": "basic" },
-			{ "skill" : "logistics", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "logistics",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "falv3"

@@ -37,10 +37,15 @@
 				"max" : 6
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "neuromancy", "level": "basic" },
-			{ "skill" : "airMagic", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "neuromancy",
+				"level" : "basic"
+			},
+			{
+				"skill" : "airMagic",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

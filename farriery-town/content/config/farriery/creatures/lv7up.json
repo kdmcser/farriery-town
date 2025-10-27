@@ -73,8 +73,7 @@
 			"firstStrike" : {
 				"type" : "FIRST_STRIKE"
 			},
-			"dragonSkeleton" : 
-			{
+			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon"
 			}

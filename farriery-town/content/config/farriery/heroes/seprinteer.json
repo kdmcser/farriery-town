@@ -34,10 +34,15 @@
 				"min" : 20
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "armorer", "level": "basic" },
-			{ "skill" : "archery", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			},
+			{
+				"skill" : "archery",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "falv1"

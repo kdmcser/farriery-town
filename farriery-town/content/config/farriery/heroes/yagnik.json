@@ -35,10 +35,15 @@
 				"max" : 6
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "pathfinding", "level": "basic" },
-			{ "skill" : "leadership", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "pathfinding",
+				"level" : "basic"
+			},
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "falv5"

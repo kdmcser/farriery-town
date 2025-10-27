@@ -47,12 +47,14 @@
 			"flying" : {
 				"type" : "FLYING"
 			},
-			"blinds" :
-			{
+			"blinds" : {
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.blind",
 				"val" : 20,
-				"addInfo" : [3,0]
+				"addInfo" : [
+					3,
+					0
+				]
 			},
 			"spellimmunityslow" : {
 				"type" : "SPELL_IMMUNITY",

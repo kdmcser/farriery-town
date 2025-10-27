@@ -67,8 +67,7 @@
 				"type" : "HP_REGENERATION",
 				"val" : 30
 			},
-			"dragonSkeleton" : 
-			{
+			"dragonSkeleton" : {
 				"type" : "SKELETON_TRANSFORMER_TARGET",
 				"subtype" : "boneDragon"
 			}

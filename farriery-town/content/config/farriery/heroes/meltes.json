@@ -34,10 +34,15 @@
 				"max" : 6
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "leadership", "level": "basic" },
-			{ "skill" : "armorer", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "leadership",
+				"level" : "basic"
+			},
+			{
+				"skill" : "armorer",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"secondary" : "armorer"

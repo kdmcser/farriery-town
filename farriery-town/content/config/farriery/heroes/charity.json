@@ -35,10 +35,15 @@
 				"max" : 6
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "offence", "level": "basic" },
-			{ "skill" : "resistance", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"creature" : "falv6"

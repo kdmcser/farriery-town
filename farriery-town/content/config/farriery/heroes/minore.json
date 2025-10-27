@@ -38,10 +38,15 @@
 				"max" : 6
 			}
 		],
-		"skills":
-		[
-			{ "skill" : "fireMagic", "level": "basic" },
-			{ "skill" : "neuromancy", "level": "basic" }
+		"skills" : [
+			{
+				"skill" : "fireMagic",
+				"level" : "basic"
+			},
+			{
+				"skill" : "neuromancy",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {

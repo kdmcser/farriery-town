@@ -35,11 +35,18 @@
 				"max" : 6
 			}
 		],
-		"spellbook": [ "magicArrow" ],
-		"skills":
-		[
-			{ "skill" : "wisdom", "level": "basic" },
-			{ "skill" : "neuromancy", "level": "basic" }
+		"spellbook" : [
+			"magicArrow"
+		],
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "basic"
+			},
+			{
+				"skill" : "neuromancy",
+				"level" : "basic"
+			}
 		],
 		"specialty" : {
 			"bonuses" : {
