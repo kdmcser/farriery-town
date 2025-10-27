@@ -11,9 +11,9 @@
 		"faction" : "farriery",
 		"aiValue" : 211,
 		"fightValue" : 216,
-		"attack" : 6,
+		"attack" : 5,
 		"cost" : {
-			"gold" : 145
+			"gold" : 130
 		},
 		"damage" : {
 			"max" : 4,
@@ -33,7 +33,7 @@
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 8,
-		"hitPoints" : 20,
+		"hitPoints" : 16,
 		"level" : 2,
 		"upgrades" : [
 			"falv2up"

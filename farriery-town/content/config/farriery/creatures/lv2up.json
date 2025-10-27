@@ -11,15 +11,15 @@
 		"faction" : "farriery",
 		"aiValue" : 243,
 		"fightValue" : 249,
-		"attack" : 9,
+		"attack" : 6,
 		"cost" : {
-			"gold" : 170
+			"gold" : 150
 		},
 		"damage" : {
-			"max" : 5,
+			"max" : 4,
 			"min" : 2
 		},
-		"defense" : 9,
+		"defense" : 6,
 		"graphics" : {
 			"animation" : "farriery/battle/lv2up.def",
 			"animationTime" : {
@@ -34,7 +34,7 @@
 		},
 
 		"growth" : 8,
-		"hitPoints" : 25,
+		"hitPoints" : 20,
 		"level" : 2,
 		"sound" : {
 			"attack" : "farriery/S199ATTK.wav",

@@ -12,7 +12,7 @@
 		"aiValue" : 3683,
 		"attack" : 21,
 		"cost" : {
-			"gold" : 1800,
+			"gold" : 2400,
 			"mercury" : 1
 		},
 		"damage" : {
@@ -35,7 +35,7 @@
 		},
 		"doubleWide" : true,
 		"growth" : 1,
-		"hitPoints" : 160,
+		"hitPoints" : 180,
 		"level" : 7,
 		"upgrades" : [
 			"falv7up"
@@ -66,6 +66,11 @@
 			"HPregenerate" : {
 				"type" : "HP_REGENERATION",
 				"val" : 30
+			},
+			"dragonSkeleton" : 
+			{
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
 			}
 		},
 		"stackExperience" : [

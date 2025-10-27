@@ -71,14 +71,6 @@
 						"gold" : 500
 					}
 				},
-				"shipyard" : {
-					"name" : "Shipyard",
-					"description" : "The Shipyard allows you to purchase ships.",
-					"cost" : {
-						"wood" : 20,
-						"gold" : 2000
-					}
-				},
 				"fort" : {
 					"name" : "Fort",
 					"description" : "The Fort provides your town with defensive walls.",
@@ -188,10 +180,6 @@
 					"requires" : [
 						"horde1"
 					]
-				},
-				"ship" : {
-					"name" : "Shipyard",
-					"description" : "Your crew awaits."
 				},
 				"special1" : {
 					"description" : "The Nanomedic increase Attack of visiting hero by +1.",

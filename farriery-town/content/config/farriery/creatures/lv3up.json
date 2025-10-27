@@ -11,7 +11,7 @@
 		"faction" : "farriery",
 		"aiValue" : 404,
 		"fightValue" : 397,
-		"attack" : 11,
+		"attack" : 10,
 		"hasDoubleWeek" : true,
 		"cost" : {
 			"gold" : 250
@@ -20,7 +20,7 @@
 			"max" : 6,
 			"min" : 5
 		},
-		"defense" : 10,
+		"defense" : 7,
 		"graphics" : {
 			"animation" : "farriery/battle/lv3up.def",
 			"animationTime" : {
@@ -34,7 +34,7 @@
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 7,
-		"hitPoints" : 35,
+		"hitPoints" : 25,
 		"level" : 3,
 		"sound" : {
 			"attack" : "farriery/S201ATTK.wav",

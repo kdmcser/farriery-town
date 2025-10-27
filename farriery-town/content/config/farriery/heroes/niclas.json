@@ -1,6 +1,6 @@
 {
 	"niclas" : {
-		"class" : "engineer",
+		"class" : "technomage",
 		"female" : false,
 
 		"texts" : {
@@ -35,15 +35,11 @@
 				"max" : 6
 			}
 		],
-		"skills" : [
-			{
-				"level" : "basic",
-				"skill" : "logistics"
-			},
-			{
-				"level" : "basic",
-				"skill" : "leadership"
-			}
+		"spellbook": [ "magicArrow" ],
+		"skills":
+		[
+			{ "skill" : "wisdom", "level": "basic" },
+			{ "skill" : "neuromancy", "level": "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {

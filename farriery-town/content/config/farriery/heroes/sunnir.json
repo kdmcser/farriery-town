@@ -1,6 +1,6 @@
 {
 	"sunni" : {
-		"class" : "engineer",
+		"class" : "marshal",
 		"female" : false,
 		"texts" : {
 			"name" : "Sunnir",
@@ -36,8 +36,12 @@
 		],
 		"skills" : [
 			{
-				"level" : "advanced",
+				"level" : "basic",
 				"skill" : "scouting"
+			},
+			{
+				"level" : "basic",
+				"skill" : "artillery"
 			}
 		],
 		"specialty" : {

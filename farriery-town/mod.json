@@ -1,14 +1,18 @@
 {
 	"name" : "Farriery",
 	"description" : "Town Farriery based on old Forge project. Connected with Spoiled Land inside New Terrains Pack submods (see Screenshots TAB).",
-	"author" : "Polish modders team, zeryss",
+	"author" : "Polish modders team, Zeryss",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.1.3",
+	"version" : "2.1.4",
 	"modType" : "Town",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"2.1.4" : [
+			"Added flagport frames (Kingdom Overview window)",
+			"Added Neuromacy skill for some heroes"
+		],
 		"2.1.3" : [
 			"Update to vcmi-1.7 format"
 		],
@@ -82,23 +86,24 @@
 		"config/farriery/creatures/lv7.json",
 		"config/farriery/creatures/lv7up.json",
 		"config/farriery/creatures/Arkhon.json",
-		"config/farriery/creatures/AcidDragon.json",
 		"config/farriery/creatures/Mortira.json"
 	],
 	"heroClasses" : [
-		"config/farriery/heroClasses/Engineer.json",
-		"config/farriery/heroClasses/Technik.json"
+		"config/farriery/heroClasses/Marshal.json",
+		"config/farriery/heroClasses/Technomage.json"
 	],
 	"artifacts" : [
 		"config/farriery/artifacts/MortiraArt.json"
 	],
 	"heroes" : [
+		"config/farriery/heroes/amaya.json",
 		"config/farriery/heroes/steraks.json",
 		"config/farriery/heroes/Horna.json",
 		"config/farriery/heroes/seprinteer.json",
 		"config/farriery/heroes/Meltes.json",
-		"config/farriery/heroes/singhel.json",
+		"config/farriery/heroes/wolgert.json",
 		"config/farriery/heroes/niclas.json",
+		"config/farriery/heroes/olgrin.json",
 		"config/farriery/heroes/charity.json",
 		"config/farriery/heroes/sunnir.json",
 		"config/farriery/heroes/kastore.json",
@@ -106,10 +111,12 @@
 		"config/farriery/heroes/minore.json",
 		"config/farriery/heroes/leane.json",
 		"config/farriery/heroes/tarkin.json",
+		"config/farriery/heroes/tronhill.json",
 		"config/farriery/heroes/maximus.json",
 		"config/farriery/heroes/cistrict.json",
 		"config/farriery/heroes/karen.json",
-		"config/farriery/heroes/resurrecta.json"
+		"config/farriery/heroes/shandri.json",
+		"config/farriery/heroes/yagnik.json"
 	],
 	"objects" : [
 		"config/farriery/dwellings",
@@ -117,5 +124,11 @@
 	],
 	"spells" : [
 		"config/farriery/moat.json"
+	],
+
+	"skills" : [
+		"config/farriery/skills/neuromancy",
+		"config/farriery/skills/artillery.json"
 	]
 }
+

@@ -34,7 +34,7 @@
 			"timeBetweenFidgets" : 1
 		},
 		"growth" : 7,
-		"hitPoints" : 18,
+		"hitPoints" : 25,
 		"level" : 3,
 		"upgrades" : [
 			"falv3up"

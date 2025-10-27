@@ -10,16 +10,16 @@
 		},
 		"faction" : "farriery",
 		"aiValue" : 11000,
-		"attack" : 32,
+		"attack" : 28,
 		"cost" : {
 			"gold" : 6000,
-			"mercury" : 3
+			"mercury" : 2
 		},
 		"damage" : {
 			"max" : 65,
 			"min" : 35
 		},
-		"defense" : 35,
+		"defense" : 32,
 		"fightValue" : 10800,
 		"graphics" : {
 			"animation" : "farriery/battle/lv7up.def",
@@ -35,7 +35,7 @@
 		},
 		"doubleWide" : true,
 		"growth" : 1,
-		"hitPoints" : 350,
+		"hitPoints" : 280,
 		"level" : 7,
 		"sound" : {
 			"attack" : "farriery/S210ATTK.wav",
@@ -72,6 +72,11 @@
 			},
 			"firstStrike" : {
 				"type" : "FIRST_STRIKE"
+			},
+			"dragonSkeleton" : 
+			{
+				"type" : "SKELETON_TRANSFORMER_TARGET",
+				"subtype" : "boneDragon"
 			}
 		},
 		"stackExperience" : [

@@ -13,13 +13,13 @@
 		"fightValue" : 120,
 		"attack" : 4,
 		"cost" : {
-			"gold" : 40
+			"gold" : 60
 		},
 		"damage" : {
 			"max" : 3,
 			"min" : 1
 		},
-		"defense" : 4,
+		"defense" : 3,
 		"horde" : 6,
 		"graphics" : {
 			"animation" : "farriery/battle/lv1.def",
@@ -60,7 +60,7 @@
 			}
 		},
 		"growth" : 15,
-		"hitPoints" : 8,
+		"hitPoints" : 5,
 		"level" : 1,
 		"shots" : 12,
 		"upgrades" : [

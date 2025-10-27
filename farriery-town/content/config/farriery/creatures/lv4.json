@@ -11,16 +11,16 @@
 		"faction" : "farriery",
 		"aiValue" : 839,
 		"fightValue" : 768,
-		"attack" : 12,
-		"defense" : 8,
-		"hitPoints" : 50,
+		"attack" : 11,
+		"defense" : 9,
+		"hitPoints" : 30,
 		"speed" : 4,
 		"cost" : {
 			"gold" : 350
 		},
 		"damage" : {
-			"max" : 14,
-			"min" : 8
+			"max" : 10,
+			"min" : 6
 		},
 		"graphics" : {
 			"animation" : "farriery/battle/lv4.def",
@@ -60,7 +60,7 @@
 				]
 			}
 		},
-		"growth" : 3,
+		"growth" : 4,
 		"level" : 4,
 		"upgrades" : [
 			"falv4up"
@@ -78,10 +78,8 @@
 			"canShoot" : {
 				"type" : "SHOOTER"
 			},
-			"enchanted" : {
-				"type" : "ENCHANTED",
-				"subtype" : "slayer",
-				"val" : 2
+			"noMeleePenalty" : {
+				"type" : "NO_MELEE_PENALTY"
 			}
 		},
 		"stackExperience" : [

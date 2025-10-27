@@ -1,6 +1,6 @@
 {
 	"seprinteer" : {
-		"class" : "technik",
+		"class" : "marshal",
 		"female" : true,
 		"texts" : {
 			"name" : "Seprinteer",
@@ -17,38 +17,28 @@
 			"large" : "farriery/heroes/seprinteer/portrait-large.bmp",
 			"small" : "farriery/heroes/seprinteer/portrait-small.bmp"
 		},
-
-		"spellbook" : [
-			"magicArrow"
-		],
 		"army" : [
 			{
 				"creature" : "falv1",
-				"min" : 10,
-				"max" : 15
+				"max" : 20,
+				"min" : 20
 			},
 			{
-				"creature" : "falv2",
-				"min" : 6,
-				"max" : 9
+				"creature" : "falv1",
+				"max" : 20,
+				"min" : 20
 			},
 			{
-				"creature" : "falv3",
-				"min" : 4,
-				"max" : 6
+				"creature" : "falv1",
+				"max" : 20,
+				"min" : 20
 			}
 		],
-		"skills" : [
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "sorcery"
-			}
+		"skills":
+		[
+			{ "skill" : "armorer", "level": "basic" },
+			{ "skill" : "archery", "level": "basic" }
 		],
-
 		"specialty" : {
 			"creature" : "falv1"
 		}

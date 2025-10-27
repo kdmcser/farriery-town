@@ -11,16 +11,16 @@
 		"faction" : "farriery",
 		"aiValue" : 1262,
 		"fightValue" : 1134,
-		"attack" : 18,
-		"defense" : 18,
-		"hitPoints" : 65,
+		"attack" : 15,
+		"defense" : 15,
+		"hitPoints" : 60,
 		"speed" : 11,
 		"cost" : {
 			"gold" : 750
 		},
 		"damage" : {
 			"max" : 20,
-			"min" : 15
+			"min" : 12
 		},
 		"graphics" : {
 			"animation" : "farriery/battle/lv5up.def",
@@ -47,10 +47,12 @@
 			"flying" : {
 				"type" : "FLYING"
 			},
-			"fearless" : {
-				"type" : "MORALE",
-				"val" : 1,
-				"valueType" : "INDEPENDENT_MAX"
+			"blinds" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.blind",
+				"val" : 20,
+				"addInfo" : [3,0]
 			},
 			"spellimmunityslow" : {
 				"type" : "SPELL_IMMUNITY",

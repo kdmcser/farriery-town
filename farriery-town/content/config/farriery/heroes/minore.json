@@ -1,6 +1,6 @@
 {
 	"minore" : {
-		"class" : "technik",
+		"class" : "technomage",
 		"female" : false,
 		"texts" : {
 			"name" : "Minore",
@@ -38,15 +38,10 @@
 				"max" : 6
 			}
 		],
-		"skills" : [
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "waterMagic"
-			}
+		"skills":
+		[
+			{ "skill" : "fireMagic", "level": "basic" },
+			{ "skill" : "neuromancy", "level": "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {

@@ -1,0 +1,48 @@
+{
+	"core:artillery" : {
+		"base" : {
+			"effects" : {
+				"faMortiraExtra" : {
+					"subtype" : "creature.faMortira",
+					"type" : "BONUS_DAMAGE_CHANCE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"damagePower" : {
+					"subtype" : "creature.faMortira",
+					"type" : "BONUS_DAMAGE_PERCENTAGE",
+					"valueType" : "BASE_NUMBER"
+				}
+			}
+		},
+		"basic" : {
+			"effects" : {
+				"faMortiraExtra" : {
+					"val" : 0
+				},
+				"damagePower" : {
+					"val" : 0
+				}
+			}
+		},
+		"advanced" : {
+			"effects" : {
+				"faMortiraExtra" : {
+					"val" : 75
+				},
+				"damagePower" : {
+					"val" : 100
+				}
+			}
+		},
+		"expert" : {
+			"effects" : {
+				"faMortiraExtra" : {
+					"val" : 100
+				},
+				"damagePower" : {
+					"val" : 200
+				}
+			}
+		}
+	}
+}

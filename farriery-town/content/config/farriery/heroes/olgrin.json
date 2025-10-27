@@ -1,0 +1,63 @@
+{
+	"olgrin" : {
+		"class" : "marshal",
+		"female" : false,
+		"texts" : {
+			"name" : "Olgrin",
+			"biography" : "Olgrin was a necromancer but was always looking for a solution to strengthen his creations, and after meeting Castore, he discovered the world of technology..",
+			"specialty" : {
+				"description" : "Can upgrade Walking Deads and Zombies in Cyber Deads and Cyber Zombies.",
+				"name" : "Special Upgrades",
+				"tooltip" : "Free upgrades Walking Deads"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "farriery/heroes/olgrin/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/olgrin/spec-large.bmp",
+			"large" : "farriery/heroes/olgrin/portrait-large.bmp",
+			"small" : "farriery/heroes/olgrin/portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "armorer"
+			},
+			{
+				"level" : "basic",
+				"skill" : "neuromancy"
+			}
+		],
+
+		"specialty" : {
+			"base" : {
+				"addInfo" : "falv2",
+				"type" : "SPECIAL_UPGRADE"
+			},
+			"bonuses" : {
+				"faCyberDead" : {
+					"subtype" : "walkingDead"
+				},
+				"faCyberZombie" : {
+					"subtype" : "zombieLord"
+				}
+			}
+		}
+	}
+}

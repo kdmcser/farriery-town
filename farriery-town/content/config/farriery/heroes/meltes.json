@@ -1,6 +1,6 @@
 {
 	"meltes" : {
-		"class" : "engineer",
+		"class" : "marshal",
 		"female" : false,
 		"texts" : {
 			"name" : "Meltes",
@@ -34,15 +34,10 @@
 				"max" : 6
 			}
 		],
-		"skills" : [
-			{
-				"level" : "basic",
-				"skill" : "armorer"
-			},
-			{
-				"level" : "basic",
-				"skill" : "tactics"
-			}
+		"skills":
+		[
+			{ "skill" : "leadership", "level": "basic" },
+			{ "skill" : "armorer", "level": "basic" }
 		],
 		"specialty" : {
 			"secondary" : "armorer"

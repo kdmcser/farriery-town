@@ -11,16 +11,16 @@
 		"faction" : "farriery",
 		"aiValue" : 2809,
 		"fightValue" : 2137,
-		"attack" : 18,
-		"defense" : 20,
-		"hitPoints" : 130,
+		"attack" : 16,
+		"defense" : 16,
+		"hitPoints" : 120,
 		"speed" : 8,
 		"cost" : {
-			"gold" : 1800
+			"gold" : 1500
 		},
 		"damage" : {
-			"max" : 35,
-			"min" : 35
+			"max" : 25,
+			"min" : 20
 		},
 		"graphics" : {
 			"animation" : "farriery/battle/lv6up.def",
@@ -58,16 +58,6 @@
 				"type" : "SPELL_IMMUNITY",
 				"subtype" : "landMine",
 				"addInfo" : 0
-			},
-			"spellAfterAttack" : {
-				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "chainLightning",
-				"val" : 20
-			},
-			"lightningBoltPOwer" : {
-				"type" : "SPECIFIC_SPELL_POWER",
-				"subtype" : "chainLightning",
-				"val" : 1
 			}
 		},
 		"stackExperience" : [

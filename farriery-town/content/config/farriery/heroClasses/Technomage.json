@@ -1,5 +1,5 @@
 {
-	"technik" : {
+	"technomage" : {
 		"name" : "Technomage",
 		"faction" : "farriery",
 		"affinity" : "magic",
@@ -15,7 +15,7 @@
 		"mapObject" : {
 			"templates" : {
 				"default" : {
-					"animation" : "farriery/mapEngineer"
+					"animation" : "farriery/mapTechnomage"
 				}
 			}
 		},
@@ -39,36 +39,35 @@
 			"knowledge" : 25
 		},
 		"secondarySkills" : {
-			"pathfinding" : 4,
-			"archery" : 2,
-			"logistics" : 6,
-			"scouting" : 5,
-			"diplomacy" : 5,
-			"navigation" : 0,
-			"leadership" : 1,
-			"wisdom" : 8,
-			"mysticism" : 6,
-			"luck" : 4,
-			"ballistics" : 5,
+			"airMagic" : 3,
+			"archery" : 3,
+			"armorer" : 3,
+			"artillery" : 7,
+			"ballistics" : 10,
+			"diplomacy" : 1,
 			"eagleEye" : 4,
-			"necromancy" : 0,
+			"earthMagic" : 5,
 			"estates" : 1,
-			"fireMagic" : 6,
-			"airMagic" : 4,
-			"waterMagic" : 2,
-			"earthMagic" : 4,
-			"scholar" : 5,
-			"tactics" : 1,
-			"artillery" : 4,
+			"fireMagic" : 4,
+			"intelligence" : 4,
+			"leadership" : 1,
 			"learning" : 4,
-			"offence" : 5,
-			"armorer" : 5,
-			"intelligence" : 8,
-			"sorcery" : 7,
-			"resistance" : 5,
-			"firstAid" : 1
+			"logistics" : 1,
+			"luck" : 1,
+			"mysticism" : 6,
+			"navigation" : 5,
+			"neuromancy" : 5,
+			"offence" : 3,
+			"pathfinding" : 1,
+			"resistance" : 9,
+			"scholar" : 5,
+			"scouting" : 1,
+			"sorcery" : 8,
+			"tactics" : 4,
+			"waterMagic" : 3,
+			"wisdom" : 6,
+			"firstAid" : 9
 		},
-
 		"defaultTavern" : 6,
 		"tavern" : {
 			"castle" : 6,

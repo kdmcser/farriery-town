@@ -1,0 +1,47 @@
+{
+	"tronhill" : {
+		"class" : "marshal",
+		"female" : true,
+
+		"texts" : {
+			"name" : "tronhill",
+			"biography" : "Thornhill, despite being a rat-man, is a top mechanic and can assemble a marvel of engineering from a pile of spare parts..",
+			"specialty" : {
+				"description" : "Increases the Attack and Defence of any Mechanical Dragons or Hydraulic Dragons for each level attained after 7th level.",
+				"tooltip" : "Creature Bonus: Mechanical Dragons",
+				"name" : "Mechanical Dragons"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "farriery/heroes/tronhill/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/tronhill/spec-large.bmp",
+			"large" : "farriery/heroes/tronhill/portrait-large.bmp",
+			"small" : "farriery/heroes/tronhill/portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills":
+		[
+			{ "skill" : "tactics", "level": "basic" },
+			{ "skill" : "resistance", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "falv7"
+		}
+	}
+}

@@ -11,15 +11,15 @@
 		"faction" : "farriery",
 		"aiValue" : 177,
 		"fightValue" : 150,
-		"attack" : 6,
+		"attack" : 5,
 		"cost" : {
 			"gold" : 90
 		},
 		"damage" : {
 			"max" : 3,
-			"min" : 2
+			"min" : 1
 		},
-		"defense" : 6,
+		"defense" : 4,
 		"horde" : 6,
 		"graphics" : {
 			"animation" : "farriery/battle/lv1up.def",
@@ -60,7 +60,7 @@
 			}
 		},
 		"growth" : 15,
-		"hitPoints" : 10,
+		"hitPoints" : 7,
 		"level" : 1,
 		"shots" : 24,
 		"sound" : {
@@ -71,7 +71,7 @@
 			"wince" : "farriery/gruntWNCE.wav",
 			"shoot" : "farriery/gruntSHOT1.wav"
 		},
-		"speed" : 9,
+		"speed" : 6,
 		"abilities" : {
 			"shooter" : {
 				"type" : "SHOOTER"

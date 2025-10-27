@@ -1,10 +1,10 @@
 {
 	"tarkin" : {
-		"class" : "technik",
+		"class" : "technomage",
 		"female" : true,
 		"texts" : {
 			"name" : "Tarkin",
-			"biography" : "arkin was once an engineer in the employ of Eeofol. After losing the war with Erathia, he fled to Deyja to meet Kastore building his army. Fascinated by the technology of the Ancients, he unhesitatingly joined the plan to rebuild the Celestial Forges.",
+			"biography" : "arkin was once an marshal in the employ of Eeofol. After losing the war with Erathia, he fled to Deyja to meet Kastore building his army. Fascinated by the technology of the Ancients, he unhesitatingly joined the plan to rebuild the Celestial Forges.",
 			"specialty" : {
 				"description" : "Casts Land Mine with increased effect, based on hero level.",
 				"tooltip" : "Spell Bonus: Land Mine",
@@ -41,11 +41,11 @@
 		"skills" : [
 			{
 				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "fireMagic"
 			},
 			{
 				"level" : "basic",
-				"skill" : "mysticism"
+				"skill" : "neuromancy"
 			}
 		],
 		"specialty" : {

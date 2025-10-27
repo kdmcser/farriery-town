@@ -1,6 +1,6 @@
 {
 	"leane" : {
-		"class" : "technik",
+		"class" : "technomage",
 		"female" : false,
 		"texts" : {
 			"name" : "Leane",
@@ -38,21 +38,16 @@
 				"max" : 6
 			}
 		],
-		"skills" : [
-			{
-				"level" : "basic",
-				"skill" : "wisdom"
-			},
-			{
-				"level" : "basic",
-				"skill" : "intelligence"
-			}
+		"skills":
+		[
+			{ "skill" : "neuromancy", "level": "basic" },
+			{ "skill" : "earthMagic", "level": "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {
 				"stoneSkin" : {
 					"addInfo" : 0,
-					"subtype" : "stoneSkin",
+					"subtype" : "spell.stoneSkin",
 					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}

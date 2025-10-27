@@ -1,14 +1,14 @@
 {
 	"steraks" : {
-		"class" : "engineer",
+		"class" : "technomage",
 		"female" : false,
 		"texts" : {
 			"name" : "Steraks",
-			"biography" : "Steraks mad scientist, who became the undead from their experiments, but continuously works.",
+			"biography" : "Sterax is a mad scientist who became undead due to his experiments, but continues to work and combine magic and science..",
 			"specialty" : {
-				"description" : "Can upgrade Walking Deads and Zombies in Cyber Deads and Cyber Zombies.",
-				"name" : "Special Upgrades",
-				"tooltip" : "Free upgrades Walking Deads"
+				"description" : "Receives a 5% per level bonus to Neuromancy skill.",
+				"tooltip" : "Secondary Skill Bonus: Neuromancy",
+				"name" : "Neuromancy"
 			}
 		},
 		"images" : {
@@ -44,23 +44,11 @@
 			},
 			{
 				"level" : "basic",
-				"skill" : "logistics"
+				"skill" : "neuromancy"
 			}
 		],
-
 		"specialty" : {
-			"base" : {
-				"addInfo" : "falv2",
-				"type" : "SPECIAL_UPGRADE"
-			},
-			"bonuses" : {
-				"faCyberDead" : {
-					"subtype" : "walkingDead"
-				},
-				"faCyberZombie" : {
-					"subtype" : "zombieLord"
-				}
-			}
+			"secondary" : "neuromancy"
 		}
 	}
 }

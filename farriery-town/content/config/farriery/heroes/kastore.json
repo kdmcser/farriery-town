@@ -1,6 +1,6 @@
 {
 	"kastore" : {
-		"class" : "engineer",
+		"class" : "technomage",
 		"female" : false,
 		"texts" : {
 			"name" : "Kastore",
@@ -37,20 +37,15 @@
 				"max" : 6
 			}
 		],
-		"skills" : [
-			{
-				"level" : "basic",
-				"skill" : "archery"
-			},
-			{
-				"level" : "basic",
-				"skill" : "luck"
-			}
+		"skills":
+		[
+			{ "skill" : "neuromancy", "level": "basic" },
+			{ "skill" : "airMagic", "level": "basic" }
 		],
 		"specialty" : {
 			"bonuses" : {
 				"chainLightning" : {
-					"subtype" : "chainLightning",
+					"subtype" : "spell.chainLightning",
 					"type" : "SPECIAL_SPELL_LEV",
 					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 3

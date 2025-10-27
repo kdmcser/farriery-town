@@ -40,8 +40,7 @@
 				],
 				[
 					[
-						"marketplace",
-						"resourceSilo"
+						"marketplace"
 					],
 					[
 						"mageGuild1",
@@ -51,7 +50,7 @@
 						"mageGuild5"
 					],
 					[
-						"shipyard"
+						"resourceSilo"
 					]
 				],
 				[
@@ -256,8 +255,8 @@
 				"witch" : 5,
 				"planeswalker" : 4,
 				"elementalist" : 4,
-				"engineer" : 8,
-				"technik" : 8
+				"marshal" : 8,
+				"technomage" : 8
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 {
 	"cistrict" : {
-		"class" : "technik",
+		"class" : "technomage",
 		"female" : true,
 
 		"texts" : {
@@ -42,7 +42,7 @@
 		"skills" : [
 			{
 				"level" : "basic",
-				"skill" : "wisdom"
+				"skill" : "neuromancy"
 			},
 			{
 				"level" : "basic",

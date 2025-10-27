@@ -11,16 +11,16 @@
 		"faction" : "farriery",
 		"aiValue" : 1168,
 		"fightValue" : 1050,
-		"attack" : 15,
-		"defense" : 13,
+		"attack" : 14,
+		"defense" : 12,
 		"hitPoints" : 60,
 		"speed" : 8,
 		"cost" : {
-			"gold" : 475
+			"gold" : 600
 		},
 		"damage" : {
 			"max" : 20,
-			"min" : 10
+			"min" : 12
 		},
 		"graphics" : {
 			"animation" : "farriery/battle/lv5.def",

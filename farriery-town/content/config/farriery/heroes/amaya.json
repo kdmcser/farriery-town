@@ -1,0 +1,47 @@
+{
+	"amaya" : {
+		"class" : "marshal",
+		"female" : true,
+
+		"texts" : {
+			"name" : "Amaya",
+			"biography" : "Amaya has a weakness for two things: technology and fire..",
+			"specialty" : {
+				"description" : "Increases the Attack and Defence of any Incenerators or Purifiers for each level attained after 3th level.",
+				"tooltip" : "Creature Bonus: Incenerators",
+				"name" : "Incenerators"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "farriery/heroes/amaya/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/amaya/spec-large.bmp",
+			"large" : "farriery/heroes/amaya/portrait-large.bmp",
+			"small" : "farriery/heroes/amaya/portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "falv3",
+				"max" : 5,
+				"min" : 5
+			},
+			{
+				"creature" : "falv3",
+				"max" : 5,
+				"min" : 5
+			},
+			{
+				"creature" : "falv3",
+				"max" : 5,
+				"min" : 5
+			}
+		],
+		"skills":
+		[
+			{ "skill" : "offence", "level": "basic" },
+			{ "skill" : "logistics", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "falv3"
+		}
+	}
+}

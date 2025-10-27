@@ -1,0 +1,47 @@
+{
+	"yagnik" : {
+		"class" : "marshal",
+		"female" : true,
+
+		"texts" : {
+			"name" : "Yagnik",
+			"biography" : "Yagnik, like many minotaurs, became a victim of war. From many battles, he received injuries incompatible with military craft. He thought that his path as a warrior was over, but a stranger offered a way out for him and for those like him..",
+			"specialty" : {
+				"description" : "Increases the Attack and Defence of any Jump Soldiers or Jump Troopers for each level attained after 5th level.",
+				"tooltip" : "Creature Bonus: Jump Soldiers",
+				"name" : "Jump Soldiers"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "farriery/heroes/yagnik/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/yagnik/spec-large.bmp",
+			"large" : "farriery/heroes/yagnik/portrait-large.bmp",
+			"small" : "farriery/heroes/yagnik/portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills":
+		[
+			{ "skill" : "pathfinding", "level": "basic" },
+			{ "skill" : "leadership", "level": "basic" }
+		],
+		"specialty" : {
+			"creature" : "falv5"
+		}
+	}
+}

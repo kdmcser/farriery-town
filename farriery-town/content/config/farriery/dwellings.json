@@ -12,12 +12,14 @@
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-1.def",
 						"mask" : [
-							"00V",
-							"0BB",
-							"VAB"
+							"VVV",
+							"VVV",
+							"VVV",
+							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "farriery/icons/flagports/dw1.def"
 			},
 			"faSlaughterhouse" : {
 				"name" : "Slaughterhouse",
@@ -32,10 +34,11 @@
 						"mask" : [
 							"VVV",
 							"VVB",
-							"VAB"
+							"VAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "farriery/icons/flagports/dw2.def"
 			},
 			"faFireBasin" : {
 				"name" : "Fire Basin",
@@ -53,7 +56,8 @@
 							"VBA"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "farriery/icons/flagports/dw3.def"
 			},
 			"faStingersPost" : {
 				"name" : "Stingers Post",
@@ -66,12 +70,13 @@
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-4.def",
 						"mask" : [
-							"VBBBV",
-							"VBBBB",
-							"VVBAV"
+							"VVVV",
+							"VVBB",
+							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "farriery/icons/flagports/dw4.def"
 			},
 			"faAirstrip" : {
 				"name" : "Airstrip",
@@ -85,11 +90,12 @@
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-5.def",
 						"mask" : [
-							"VBB",
-							"BAV"
+							"VVB",
+							"VAV"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "farriery/icons/flagports/dw5.def"
 			},
 			"faAncientRefinery" : {
 				"name" : "Ancient Refinery",
@@ -103,12 +109,13 @@
 					"default" : {
 						"animation" : "farriery/dwellings/dwelling-6.def",
 						"mask" : [
-							"VVV",
-							"VBB",
-							"ABV"
+							"VVVV",
+							"VVVB",
+							"VVAB"
 						]
 					}
-				}
+				},
+				"kingdomOverviewImage" : "farriery/icons/flagports/dw6.def"
 			},
 			"faGarage" : {
 				"name" : "Detached Garage",
@@ -124,30 +131,12 @@
 						"mask" : [
 							"VVVV",
 							"VVBV",
-							"VABB"
+							"VVAB"
 						]
+					
 					}
-				}
-			},
-
-			"faRancidCave" : {
-				"name" : "Rancid Cave",
-				"creatures" : [
-					[
-						"faAcidDragon"
-					]
-				],
-				"guards" : true,
-				"templates" : {
-					"default" : {
-						"animation" : "farriery/dwellings/dwelling-8.def",
-						"mask" : [
-							"0VV",
-							"VBB",
-							"VAB"
-						]
-					}
-				}
+				},
+				"kingdomOverviewImage" : "farriery/icons/flagports/dw7.def"
 			}
 		}
 	}

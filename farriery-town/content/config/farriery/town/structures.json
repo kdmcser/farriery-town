@@ -50,14 +50,6 @@
 					"border" : "farriery/town-screen/buildings-border/TOELtvrn.bmp",
 					"area" : "farriery/town-screen/buildings-area/TZELtvrn.bmp"
 				},
-				"shipyard" : {
-					"animation" : "farriery/town-screen/buildings/TBELdock2.def",
-					"x" : 0,
-					"y" : 0,
-					"z" : 0,
-					"border" : "farriery/town-screen/buildings-border/TOELdock.bmp",
-					"area" : "farriery/town-screen/buildings-area/TZELdock.bmp"
-				},
 				"fort" : {
 					"animation" : "farriery/town-screen/buildings/TBELcstl.def",
 					"x" : 586,
@@ -164,15 +156,6 @@
 					"area" : "farriery/town-screen/buildings-area/TZELhrd2.bmp",
 					"hidden" : true,
 					"builds" : "horde1"
-				},
-				"ship" : {
-					"animation" : "farriery/town-screen/buildings/TBELboat.def",
-					"x" : 0,
-					"y" : 0,
-					"z" : 0,
-					"border" : "farriery/town-screen/buildings-border/TOELboat.bmp",
-					"area" : "farriery/town-screen/buildings-area/TZELboat.bmp",
-					"hidden" : true
 				},
 				"special2" : {
 					"animation" : "farriery/town-screen/buildings/spec2.def",

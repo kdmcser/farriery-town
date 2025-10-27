@@ -1,0 +1,76 @@
+{
+	"neuromancy" : {
+		"name" : "Neuromancy",
+		"gainChance" : {
+			"might" : 0,
+			"magic" : 0
+		},
+		"specialty" : [
+			"main"
+		],
+		"base" : {
+			"effects" : {
+				"main" : {
+					"type" : "UNDEAD_RAISE_PERCENTAGE",
+					"valueType" : "BASE_NUMBER"
+				},
+				"power" : {
+					"type" : "IMPROVED_NECROMANCY",
+					"subtype" : "falv2",
+					"addInfo" : 0
+				}
+			}
+		},
+		"basic" : {
+			"images" : {
+				"small" : "farriery/skills/smallBasic",
+				"medium" : "farriery/skills/mediumBasic",
+				"large" : "farriery/skills/largeBasic",
+				"scenarioBonus" : "farriery/icons/bonusBlank.png"
+			},
+			"description" : "{Basic Neuromancy}\n\nBasic Neuromancy allows 10% of the creatures killed in combat to be brought back from the dead as Cyber Deads.",
+			"effects" : {
+				"main" : {
+					"val" : 10
+				},
+				"power" : {
+					"val" : 1
+				}
+			}
+		},
+		"advanced" : {
+			"images" : {
+				"small" : "farriery/skills/smallAdvanced",
+				"medium" : "farriery/skills/mediumAdvanced",
+				"large" : "farriery/skills/largeAdvanced",
+				"scenarioBonus" : "farriery/icons/bonusBlank.png"
+			},
+			"description" : "{Advanced Neuromancy}\n\nAdvanced Neuromancy allows 20% of the creatures killed in combat to be brought back from the dead as Cyber Deads.",
+			"effects" : {
+				"main" : {
+					"val" : 20
+				},
+				"power" : {
+					"val" : 2
+				}
+			}
+		},
+		"expert" : {
+			"images" : {
+				"small" : "farriery/skills/smallExpert",
+				"medium" : "farriery/skills/mediumExpert",
+				"large" : "farriery/skills/largeExpert",
+				"scenarioBonus" : "farriery/icons/bonusBlank.png"
+			},
+			"description" : "{Expert Neuromancy}\n\nExpert Neuromancy allows 30% of the creatures killed in combat to be brought back from the dead as Cyber Deads.",
+			"effects" : {
+				"main" : {
+					"val" : 30
+				},
+				"power" : {
+					"val" : 3
+				}
+			}
+		}
+	}
+}
