@@ -7,7 +7,7 @@
 					"type" : "BONUS_DAMAGE_CHANCE",
 					"valueType" : "BASE_NUMBER"
 				},
-				"damagePower" : {
+				"damagePowerMortira" : {
 					"subtype" : "creature.faMortira",
 					"type" : "BONUS_DAMAGE_PERCENTAGE",
 					"valueType" : "BASE_NUMBER"
