@@ -98,13 +98,12 @@
 	"heroes" : [
 		"config/farriery/heroes/amaya.json",
 		"config/farriery/heroes/steraks.json",
-		"config/farriery/heroes/Horna.json",
 		"config/farriery/heroes/seprinteer.json",
 		"config/farriery/heroes/Meltes.json",
 		"config/farriery/heroes/wolgert.json",
 		"config/farriery/heroes/niclas.json",
 		"config/farriery/heroes/olgrin.json",
-		"config/farriery/heroes/charity.json",
+		"config/farriery/heroes/silas.json",
 		"config/farriery/heroes/sunnir.json",
 		"config/farriery/heroes/kastore.json",
 		"config/farriery/heroes/rengist.json",
@@ -114,7 +113,7 @@
 		"config/farriery/heroes/tronhill.json",
 		"config/farriery/heroes/maximus.json",
 		"config/farriery/heroes/cistrict.json",
-		"config/farriery/heroes/karen.json",
+		"config/farriery/heroes/kreyk.json",
 		"config/farriery/heroes/shandri.json",
 		"config/farriery/heroes/yagnik.json"
 	],

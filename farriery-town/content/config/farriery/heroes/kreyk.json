@@ -1,0 +1,61 @@
+{
+	"kreyk" : {
+		"class" : "technomage",
+		"female" : false,
+		"texts" : {
+			"name" : "Kreyk",
+			"biography" : "N/A",
+			"specialty" : {
+				"tooltip" : "+350 Gold per day",
+				"description" : "Increases kingdom's income by 350 gold per day.",
+				"name" : "+350 Gold"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "farriery/heroes/kreyk/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/kreyk/spec-large.bmp",
+			"large" : "farriery/heroes/kreyk/portrait-large.bmp",
+			"small" : "farriery/heroes/kreyk/portrait-small.bmp"
+		},
+
+		"spellbook" : [
+			"viewEarth"
+		],
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "neuromancy"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}

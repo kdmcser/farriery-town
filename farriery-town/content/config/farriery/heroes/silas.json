@@ -1,0 +1,52 @@
+{
+	"silas" : {
+		"class" : "marshal",
+		"female" : true,
+
+		"texts" : {
+			"name" : "Silas",
+			"biography" : "silas was a great necromancer, but after the devils' attack on Antadari, her guild was completely destroyed. She wandered around the world until King Castore asked her to join his army.",
+			"specialty" : {
+				"description" : "Increases the Attack and Defence of any Tanks or Heavy Tanks for each level attained after 6th level.",
+				"tooltip" : "Creature Bonus: Tanks",
+				"name" : "Tanks"
+			}
+		},
+		"images" : {
+			"specialtySmall" : "farriery/heroes/silas/spec-small.bmp",
+			"specialtyLarge" : "farriery/heroes/silas/spec-large.bmp",
+			"large" : "farriery/heroes/silas/portrait-large.bmp",
+			"small" : "farriery/heroes/silas/portrait-small.bmp"
+		},
+		"army" : [
+			{
+				"creature" : "falv1",
+				"min" : 10,
+				"max" : 15
+			},
+			{
+				"creature" : "falv2",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "falv3",
+				"min" : 4,
+				"max" : 6
+			}
+		],
+		"skills" : [
+			{
+				"skill" : "offence",
+				"level" : "basic"
+			},
+			{
+				"skill" : "resistance",
+				"level" : "basic"
+			}
+		],
+		"specialty" : {
+			"creature" : "falv6"
+		}
+	}
+}
